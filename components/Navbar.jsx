@@ -225,14 +225,20 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                {/* <Link href='/#contact'> */}
+                <a
+              href='mailto:mahmoudkalekish18@gmail.com'
+              // target='_blank'
+              rel='noreferrer'
+            >
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
-                </Link>
+                  </a>
+                {/* </Link> */}
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}
