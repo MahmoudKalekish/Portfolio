@@ -19,9 +19,9 @@ const resume = () => {
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Mahmoud Kalekish</h2>
-          
+
           <div className='flex'>
-          
+
             <a
               href='tel:+96176734358'
               target='_blank'
@@ -122,7 +122,7 @@ const resume = () => {
             <span className='px-2'>|</span> Render
             <span className='px-2'>|</span> Railway
             <span className='px-2'>|</span> Vercel
-            
+
           </p>
         </div>
 
@@ -130,6 +130,30 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              BEANZ
+            </span>
+            <span className='px-2'>|</span>Abu Dhabi Emirate, United Arab Emirates
+          </p>
+          <p className='py-1 italic'> Web Developer <span className='px-2'>|</span>July 2023 - Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Utilized ReactJS, TypeScript, and Tailwind CSS to develop dynamic and responsive user interfaces.
+            </li>
+            <li>
+              Collaborated remotely with a team using Jira, Bitbucket, and Git for version control and project tracking.
+            </li>
+            <li>
+              Contributed to the development of various web applications and projects.
+            </li>
+
+          </ul>
+        </div>
+
+
+
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -169,30 +193,30 @@ const resume = () => {
 
         {/* Education */}
         <div className='py-6'>
-        <h5 className='text-center underline text-[18px] py-4'>
-          Education
-        </h5>
-        <p className='py-2'>
-          <span className='font-bold'>Lebanese University</span>
-          <span className='px-2'>|</span>BA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
-        </p>
-        <p className='py-2'>
-          <span className='font-bold'>Lebanese University</span>
-          <span className='px-2'>|</span>MA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
-        </p>
+          <h5 className='text-center underline text-[18px] py-4'>
+            Education
+          </h5>
+          <p className='py-2'>
+            <span className='font-bold'>Lebanese University</span>
+            <span className='px-2'>|</span>BA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
+          </p>
+          <p className='py-2'>
+            <span className='font-bold'>Lebanese University</span>
+            <span className='px-2'>|</span>MA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
+          </p>
         </div>
 
         {/* Languages */}
         <div className='py-6'>
-        <h5 className='text-center underline text-[18px] py-4'>
-          Languages
-        </h5>
-        <p className='py-2'>
-          Native in Arabic; Proficient in English; and Proficient in French
-        </p>
-        
+          <h5 className='text-center underline text-[18px] py-4'>
+            Languages
+          </h5>
+          <p className='py-2'>
+            Native in Arabic; Proficient in English; and Proficient in French
+          </p>
+
         </div>
-        
+
       </div>
       <Footer />
     </>
