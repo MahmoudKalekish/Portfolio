@@ -56,3 +56,9 @@ html {
 .li_wrp:hover{
   color: blue;
 }
+
+@media all and (max-width:500px){
+  .name{
+    font-size: 1.1rem;
+  }
+}
