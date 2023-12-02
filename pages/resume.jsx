@@ -64,7 +64,7 @@ const resume = () => {
         <p>
           Full stack web developer with experience in building responsive and scalable web applications
           using the MERN stack and AGILE development methodologies. Proficient in HTML, C++, C#,
-          CSS, JavaScript, Java, ReactJS, PHP, PL/SQL, Laravel, NodeJS, ExpressJS and MongoDB.
+          CSS, JavaScript, Java, Spring Boot, ReactJS, PHP, PL/SQL, Laravel, NodeJS, ExpressJS and MongoDB.
           Strong understanding of web development principles and a passion for creating user-friendly
           and visually appealing websites.
         </p>
@@ -85,8 +85,9 @@ const resume = () => {
             <span className='px-2'>|</span> ReactJS
             <span className='px-2'>|</span> Redux
             <span className='px-2'>|</span> NextJS
-            <span className='px-2'>|</span> EmberJS
             <span className='px-2'>|</span> ReactNative
+            <span className='px-2'>|</span> Angular
+            <span className='px-2'>|</span> EmberJS
             <span className='px-2'>|</span> Back-End Web Developer
             <span className='px-2'>|</span> NodeJS
             <span className='px-2'>|</span> ExpressJS
@@ -101,6 +102,8 @@ const resume = () => {
             <span className='px-2'>|</span> Asp.net
             <span className='px-2'>|</span> Vb.net
             <span className='px-2'>|</span> Java
+            <span className='px-2'>|</span> Spring Boot
+            <span className='px-2'>|</span> Liquibase
             <span className='px-2'>|</span> SQL
             <span className='px-2'>|</span> PHP
             <span className='px-2'>|</span> Laravel
@@ -133,22 +136,91 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
+              IN2
+            </span>
+            <span className='px-2'>|</span>Beirut, Lebanon
+          </p>
+          <p className='py-1 italic'> Full-Stack Engineer <span className='px-2'>|</span>October 2023 - Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Spearheading the development of end-to-end solutions using Angular for the frontend and Java with Spring Boot for the backend.
+            </li>
+            <li>
+            Identified and resolved critical bugs promptly, ensuring the uninterrupted stability and reliability of mission-critical applications.
+            </li>
+            <li>
+            Implemented advanced debugging techniques, streamlining the development process and reducing time-to-resolution.
+            </li>
+            <li>
+            Played a key role in the development of new features and enhancements, consistently adhering to best practices and coding standards.
+            </li>
+            <li>
+            Collaborated seamlessly with cross-functional teams, contributing to on-time delivery of high-quality solutions.
+            </li>
+            <li>
+            Implemented Liquibase for systematic database schema management, maintaining version control and ensuring consistent database changes.
+            </li>
+            <li>
+            Led database migration efforts, providing critical support for seamless updates and enhancements.
+            </li>
+            <li>
+            Successfully integrated and optimized third-party APIs, expanding the functionality of applications and improving overall performance.
+            </li>
+            <li>
+            Evaluated and selected APIs based on project requirements, demonstrating a deep understanding of integration complexities.
+            </li>
+            <li>
+            Actively collaborated with team members to achieve project goals, contributing valuable insights during code reviews.
+            </li>
+            <li>
+            Participated in daily stand-up meetings, fostering a collaborative environment and ensuring effective communication within the team.
+            </li>
+            <li>
+            Adapted seamlessly to Agile methodologies, playing a pivotal role in sprint planning, retrospectives, and ensuring the timely delivery of software solutions.
+            </li>
+            <li>
+            Demonstrated flexibility in responding to evolving project requirements and maintaining a focus on iterative development.
+            </li>
+            <li>
+            Proactively pursued ongoing learning initiatives, staying abreast of the latest technologies and integrating them into projects for enhanced efficiency.
+            </li>
+            <li>
+            Rapidly adapted to changing project dynamics, showcasing a commitment to continuous improvement.
+            </li>
+            <li>
+            Maintained meticulous documentation for the codebase, configurations, and API integrations, facilitating knowledge transfer and future collaboration.
+            </li>
+            <li>
+            Applied a strong analytical mindset and problem-solving skills to address complex issues efficiently, contributing to the overall stability of the software ecosystem.
+            </li>
+          </ul>
+        </div>
+
+        
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
               BEANZ
             </span>
             <span className='px-2'>|</span>Abu Dhabi Emirate, United Arab Emirates
           </p>
-          <p className='py-1 italic'> Web Developer <span className='px-2'>|</span>July 2023 - Present</p>
+          <p className='py-1 italic'> Software Engineer <span className='px-2'>|</span>July 2023 - October 2023</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Utilized ReactJS, TypeScript, and Tailwind CSS to develop dynamic and responsive user interfaces.
+            Developed dynamic and responsive user interfaces using ReactJS, TypeScript, and Tailwind CSS.
             </li>
             <li>
-              Collaborated remotely with a team using Jira, Bitbucket, and Git for version control and project tracking.
+            Collaborated remotely with a cross-functional team, utilizing tools such as Jira, Bitbucket, and Git for version control and project tracking.
             </li>
             <li>
-              Contributed to the development of various web applications and projects.
+            Implemented multilingual support, including Arabic language, using the React i18n library, enhancing user experiences for a diverse audience.
             </li>
-
+            <li>
+            Dockerized web applications for streamlined deployment, ensuring consistency and reliability across various environments.
+            </li>
+            <li>
+            Contributed to the successful development and deployment of various web applications and projects, ensuring optimal performance, accessibility, and efficient containerization.
+            </li>
           </ul>
         </div>
 
