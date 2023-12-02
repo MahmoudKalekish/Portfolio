@@ -28,7 +28,8 @@ import springboot from '../public/assets/skills/springboot.png';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen mt-52 mb-64 pt-[10rem]'>
+    // lg:h-screen 
+    <div id='skills' className='w-full mt-52 mb-64 pt-[5rem]'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
