@@ -11,6 +11,7 @@ import nourImg from '../public/assets/projects/nour.png'
 import youtubeImg from '../public/assets/projects/youtube.png'
 import enigmaImg from '../public/assets/projects/enigma.png';
 import portfolioImg from '../public/assets/projects/portfolio.png';
+import needImg from '../public/assets/projects/need.png';
 
 import ProjectItem from './ProjectItem';
 
@@ -24,10 +25,10 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='Next JS'
+            title='Need'
+            backgroundImg={needImg}
+            projectUrl='/need'
+            tech='MERN Stack'
 
           />
 
@@ -90,6 +91,13 @@ const Projects = () => {
             title='Portfolio'
             backgroundImg={portfolioImg}
             projectUrl='/portfolio'
+            tech='Next JS'
+
+          />
+          <ProjectItem
+            title='Netflix App'
+            backgroundImg={netflixImg}
+            projectUrl='/netflix'
             tech='Next JS'
 
           />
