@@ -28,7 +28,7 @@ const need = () => {
           <h2>Overview</h2>
           <p>
             
-            The website "Need" employs the MERN stack along with Firebase for Google authentication, facilitating a seamless and secure user experience. 
+            The website Need employs the MERN stack along with Firebase for Google authentication, facilitating a seamless and secure user experience. 
             It features distinct dashboards for both users and admins, ensuring tailored interactions and enhanced security measures. 
             Users can provide feedback and ratings, fostering community engagement and continuous improvement. 
             Additionally, a dedicated order history section allows users to track past transactions, while admins possess the capability to manage orders efficiently, including delivery, appending details, or rejecting orders as needed.
