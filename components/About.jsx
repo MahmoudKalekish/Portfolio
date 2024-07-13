@@ -28,7 +28,7 @@ const About = () => {
 
           </p>
           <p className='py-2 text-gray-600'>
-          Beyond my technical prowess, I hold a Bachelor's and Master's degree in Management Information Systems from
+          Beyond my technical prowess, I hold a Bachelor and Masters degree in Management Information Systems from
            the Lebanese University. Fluent in Arabic, English, and French, I possess excellent communication skills,
             enabling me to collaborate effectively with cross-functional teams and clients from diverse backgrounds.
 
