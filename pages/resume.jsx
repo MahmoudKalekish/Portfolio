@@ -117,6 +117,11 @@ const resume = () => {
             <span className='px-2'>|</span> GitHub
             <span className='px-2'>|</span> GitLab
             <span className='px-2'>|</span> Docker
+            <span className='px-2'>|</span> Kubernetes
+            <span className='px-2'>|</span> Android Studio
+            <span className='px-2'>|</span> Redis
+            <span className='px-2'>|</span> Web Services
+            <span className='px-2'>|</span> Flutter
           </p>
           <p className='py-2'>
             <span className='font-bold'>Cloud Deployment Platforms</span>

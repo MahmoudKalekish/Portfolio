@@ -13,26 +13,25 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I am a highly skilled and dedicated full stack web developer based in Beirut, Lebanon.
-            With a passion for creating responsive and visually appealing web applications,
-            I bring a wealth of knowledge and experience in the MERN stack and
-            AGILE development methodologies.
+          I am a highly skilled and dedicated full stack web developer based in Beirut, Lebanon. 
+          With a passion for creating responsive and visually appealing web applications, 
+          I bring a wealth of knowledge and experience in the MERN stack and AGILE development methodologies. 
+          I also have hands-on experience with Java Spring Boot for backend development and Angular for frontend development.
+
 
           </p>
           <p className='py-2 text-gray-600'>
-            Throughout my professional journey, I have demonstrated expertise in various backend technologies,
-            including Laravel, PhpMyAdmin, Express.js, MongoDB, and Node.js.
-            I have also excelled in frontend development, utilizing libraries and frameworks such as
-            React.js, HTML5, CSS, and JavaScript. My proficiency extends to other programming languages
-            such as C++, C#, Java, and PHP, showcasing my versatility and adaptability in
-            different technological landscapes.
+          Throughout my professional journey, I have demonstrated expertise in various backend technologies, including Laravel,
+           PhpMyAdmin, Express.js, MongoDB, and Node.js. I have also excelled in frontend development, utilizing libraries
+            and frameworks such as React.js, HTML5, CSS, and JavaScript. My proficiency extends to other programming languages 
+            such as C++, C#, and PHP, showcasing my versatility and adaptability in different technological landscapes.
+
           </p>
           <p className='py-2 text-gray-600'>
-            Beyond my technical prowess, I hold a Bachelor&apos;s and Master&apos;s 
-            degree in Management Information Systems from the Lebanese University. 
-            Fluent in Arabic, English, and French, I possess excellent communication skills, 
-            enabling me to collaborate effectively with cross-functional teams and clients 
-            from diverse backgrounds.
+          Beyond my technical prowess, I hold a Bachelor's and Master's degree in Management Information Systems from
+           the Lebanese University. Fluent in Arabic, English, and French, I possess excellent communication skills,
+            enabling me to collaborate effectively with cross-functional teams and clients from diverse backgrounds.
+
 
 
           </p>
