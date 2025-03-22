@@ -7,7 +7,7 @@ import { HiOutlineChevronDoubleDown, HiOutlineChevronDoubleUp } from 'react-icon
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center pt-20'>
+    <div id='home' className='w-full h-screen text-center pt-36'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
@@ -58,6 +58,13 @@ const Main = () => {
             </Link>
           </div>
           
+          <a
+    href='/Mahmoud-CV.pdf'
+    download
+    className='mt-2 px-6 py-2 border border-[#5651e5] text-[#5651e5] font-medium rounded-md hover:bg-[#5651e5] hover:text-white transition duration-300'
+  >
+    Download Resume
+  </a>
 
           <div className='flex justify-center py-12 '>
           <Link href='/#about'>

@@ -13,13 +13,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          I'm Mahmoud Kalekish, a Full-Stack Software Engineer based in Beirut, Lebanon. I specialize in building scalable web and mobile applications using modern technologies like Angular, Spring Boot, React, Flutter, and Firebase — with solid backend systems and DevOps practices like Docker, Kubernetes, Helm, and Grafana.
+          I&rsquo;m Mahmoud Kalekish, a Full-Stack Software Engineer based in Beirut, Lebanon. I specialize in building scalable web and mobile applications using modern technologies like Angular, Spring Boot, React, Flutter, and Firebase — with solid backend systems and DevOps practices like Docker, Kubernetes, Helm, and Grafana.
           </p>
           <p className='py-2 text-gray-600'>
-          I’ve delivered freelance projects for startups, contributed to AI-powered digital twin research, and led full-cycle product development in both professional and academic settings. Whether it’s crafting responsive UIs, building robust APIs, or deploying distributed apps, I enjoy solving real-world problems through clean, maintainable code.
+          I&rsquo;ve delivered freelance projects for startups, contributed to AI-powered digital twin research, and led full-cycle product development in both professional and academic settings. Whether it&rsquo;s crafting responsive UIs, building robust APIs, or deploying distributed apps, I enjoy solving real-world problems through clean, maintainable code.
           </p>
           <p className='py-2 text-gray-600'>
-          I hold a Bachelor’s and Master’s degree in Management Information Systems from the Lebanese University. Fluent in Arabic, English, and French — and currently learning German — I value clear communication, continuous learning, and collaborative teamwork. I'm always open to new opportunities — whether it's full-time roles, freelance collaborations, or research-driven innovation.
+          I hold a Bachelor&rsquo;s and Master&rsquo;s degree in Management Information Systems from the Lebanese University. Fluent in Arabic, English, and French — and currently learning German — I value clear communication, continuous learning, and collaborative teamwork. I&rsquo;m always open to new opportunities — whether it&rsquo;s full-time roles, freelance collaborations, or research-driven innovation.
 
 
 
