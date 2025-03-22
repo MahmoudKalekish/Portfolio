@@ -7,11 +7,9 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Mahmoud | Resume</title>
-        <meta
-          name='description'
-          content='I’m a full-stack web developer specializing in building responsive and scalable web applications.'
-        />
+      <title>Mahmoud Kalekish | Resume | Full-Stack Software Engineer</title>
+      <meta name="description" content="Resume of Mahmoud Kalekish – Full-Stack Software Engineer specializing in scalable web & mobile development, cloud deployments, and modern DevOps tools." />
+
         <link rel='icon' href='/fav.png' />
       </Head>
 
@@ -62,16 +60,13 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Full stack web developer with experience in building responsive and scalable web applications
-          using the MERN stack and AGILE development methodologies. Proficient in HTML, C++, C#,
-          CSS, JavaScript, Java, Spring Boot, ReactJS, PHP, PL/SQL, Laravel, NodeJS, ExpressJS and MongoDB.
-          Strong understanding of web development principles and a passion for creating user-friendly
-          and visually appealing websites.
+        Full-Stack Software Engineer with expertise in building scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and Firebase. Experienced in deploying robust backend systems, crafting responsive UIs, and leveraging DevOps tools like Docker, Kubernetes, and Helm. Passionate about delivering real-world solutions through clean, maintainable code and continuous learning.
+
         </p>
 
         {/* Skills */}
         <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+          {/* <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span> Front-End Web Developer
@@ -131,13 +126,23 @@ const resume = () => {
             <span className='px-2'>|</span> Railway
             <span className='px-2'>|</span> Vercel
 
-          </p>
+          </p> */}
+
+<h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+<p className='py-2'><span className='font-bold'>Frontend:</span> HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux, React Native</p>
+<p className='py-2'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL, SQLite</p>
+<p className='py-2'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis, PhpMyAdmin</p>
+<p className='py-2'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx</p>
+<p className='py-2'><span className='font-bold'>Mobile Development:</span> Flutter, Android Studio (Java), React Native</p>
+<p className='py-2'><span className='font-bold'>CMS & UI/UX:</span> WordPress, Figma, StrapiJS</p>
+<p className='py-2'><span className='font-bold'>Languages:</span> Java, C++, C#, PHP, Python</p>
+
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
-        {/* Experience */}
+        /* Experience 
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -265,22 +270,118 @@ const resume = () => {
               publish digital content, typically on the web.
             </li>
           </ul>
-        </div>
+        </div> */}
+
+<h5 className='text-center underline text-[18px] py-4'>
+  Professional Experience
+</h5>
+
+{/* IN2 Experience */}
+<div className='py-6'>
+  <p className='italic'>
+    <span className='font-bold italic'>IN2</span>
+    <span className='px-2'>|</span>Beirut, Lebanon
+  </p>
+  <p className='py-1 italic'>Full-Stack Engineer <span className='px-2'>|</span>October 2023 – Present</p>
+  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+    <li>Developed end-to-end enterprise solutions using Angular and Spring Boot.</li>
+    <li>Integrated biometric systems including ZKTeco BioTime, BioSecurity, and BioAccess for time and access management.</li>
+    <li>Implemented Liquibase for schema version control and managed database migrations.</li>
+    <li>Resolved critical bugs and performance issues using advanced debugging techniques.</li>
+    <li>Integrated and optimized third-party APIs to extend system capabilities.</li>
+    <li>Participated in Agile ceremonies and collaborated closely with cross-functional teams.</li>
+    <li>Maintained clean, well-documented code and contributed actively to code reviews.</li>
+  </ul>
+</div>
+
+{/* Freelance Experience */}
+<div className='py-6'>
+  <p className='italic'>
+    <span className='font-bold italic'>Freelance (Self-Employed)</span>
+    {/* <span className='px-2'>|</span>Remote */}
+  </p>
+  <p className='py-1 italic'>Freelance Software Engineer <span className='px-2'>|</span>October 2023 – Present</p>
+  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+    <li>Delivered full-stack mobile and web applications from design to deployment.</li>
+    <li>Collaborated with clients to define technical requirements and build custom solutions.</li>
+    <li>Built scalable systems using Spring Boot, Angular, Flutter, React, and Firebase.</li>
+    <li>Integrated REST APIs, payment gateways, Firebase Auth, and Google Maps services.</li>
+    <li>Deployed apps using Docker, Kubernetes, AWS, and Hostinger.</li>
+    <li>Notable Projects:
+      <ul className='list-disc list-inside ml-4'>
+        <li><strong>Quest It:</strong> A mobile app and web dashboard connecting users with freelance service providers.</li>
+        <li><strong>TreatYouBatter:</strong> A business management platform for product & service oversight with role-based access and real-time dashboards.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+{/* BEANZ Experience */}
+<div className='py-6'>
+  <p className='italic'>
+    <span className='font-bold italic'>BEANZ</span>
+    <span className='px-2'>|</span>Abu Dhabi Emirate, United Arab Emirates (Remote)
+  </p>
+  <p className='py-1 italic'>Software Engineer <span className='px-2'>|</span>July 2023 – October 2023</p>
+  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+    <li>Developed responsive UIs using ReactJS, TypeScript, and Tailwind CSS.</li>
+    <li>Enabled multilingual support using React i18n, including Arabic localization.</li>
+    <li>Dockerized applications for consistent, production-grade deployments.</li>
+    <li>Collaborated remotely with a cross-functional team using Jira and Bitbucket.</li>
+    <li>Delivered performant, accessible, and scalable web applications across multiple environments.</li>
+  </ul>
+</div>
+
+{/* Codi Tech Experience */}
+<div className='py-6'>
+  <p className='italic'>
+    <span className='font-bold italic'>Codi Tech</span>
+    <span className='px-2'>|</span>Beirut, Lebanon
+  </p>
+  <p className='py-1 italic'>Full-Stack Developer <span className='px-2'>|</span>Nov 2022 – October 2023</p>
+  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+    <li>Developed full-stack web apps using Laravel, Express.js, Node.js, and MongoDB.</li>
+    <li>Built frontend interfaces with React.js, React Native, HTML5, and JavaScript.</li>
+    <li>Managed WordPress-based websites and implemented custom CMS features.</li>
+    <li>Containerized applications using Docker and maintained LAMP stack servers.</li>
+    <li>Practiced Agile project management and contributed to sprint planning and task tracking.</li>
+  </ul>
+</div>
+
+{/* Teaching Experience */}
+<div className='py-6'>
+  <p className='italic'>
+    <span className='font-bold italic'>Lebanese University (Self-Employed)</span>
+    <span className='px-2'>|</span>Beirut, Lebanon
+  </p>
+  <p className='py-1 italic'>University Tutor <span className='px-2'>|</span>July 2021 – Present</p>
+  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+    <li>Delivered private tutoring sessions to university students in technical subjects.</li>
+    <li>Specialized in Data Structures (C), Algorithms, System Analysis, Web Development, and .NET applications.</li>
+    <li>Helped students build practical project skills and pass core programming courses.</li>
+    <li>Provided guidance on database modeling, UML, and problem-solving techniques.</li>
+  </ul>
+</div>
+
 
 
         {/* Education */}
         <div className='py-6'>
-          <h5 className='text-center underline text-[18px] py-4'>
+          {/* <h5 className='text-center underline text-[18px] py-4'>
             Education
           </h5>
           <p className='py-2'>
             <span className='font-bold'>Lebanese University</span>
-            <span className='px-2'>|</span>BA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
-          </p>
+            <p className='py-2'><span className='font-bold'>Master’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2023 – 2024</p>
+            </p>
           <p className='py-2'>
             <span className='font-bold'>Lebanese University</span>
-            <span className='px-2'>|</span>MA in Management Information System<span className='px-2'>|</span>Beirut, Lebanon
-          </p>
+            <p className='py-2'><span className='font-bold'>Bachelor’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2019 – 2022</p>
+            </p> */}
+            <h5 className='text-center underline text-[18px] py-4'>Education</h5>
+<p className='py-2'><span className='font-bold'>Master’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2023 – 2024</p>
+<p className='py-2'><span className='font-bold'>Bachelor’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2019 – 2022</p>
+
         </div>
 
         {/* Languages */}
@@ -289,7 +390,7 @@ const resume = () => {
             Languages
           </h5>
           <p className='py-2'>
-            Native in Arabic; Proficient in English; and Proficient in French
+          Arabic (Native), English (Proficient), French (Proficient), German (Beginner – currently learning)
           </p>
 
         </div>

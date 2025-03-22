@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mahmoud | Full Stack Web Developer</title>
-        <meta name="description" content="I’m a full-stack web developer specializing in building responsive and scalable web applications." />
+        <title>Mahmoud Kalekish | Full-Stack Software Engineer | Web & Mobile Developer</title>
+        <meta name="description" content="I'm Mahmoud Kalekish, a Full-Stack Software Engineer specializing in building scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps tools like Docker and Kubernetes." />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />

@@ -16,9 +16,10 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Mahmoud Kalekish</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Full-Stack Web Developer</h1>
+          <h1 className='py-2 text-gray-700'>A Full-Stack Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I specialize in building responsive and scalable web applications...
+          I build scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps practices like Docker and Kubernetes.  
+          Driven by clean architecture, performance, and problem-solving, I bring real-world ideas to life — from freelance projects to research-backed systems.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

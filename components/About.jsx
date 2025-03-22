@@ -13,24 +13,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          I am a highly skilled and dedicated full stack web developer based in Beirut, Lebanon. 
-          With a passion for creating responsive and visually appealing web applications, 
-          I bring a wealth of knowledge and experience in the MERN stack and AGILE development methodologies. 
-          I also have hands-on experience with Java Spring Boot for backend development and Angular for frontend development.
-
-
+          I'm Mahmoud Kalekish, a Full-Stack Software Engineer based in Beirut, Lebanon. I specialize in building scalable web and mobile applications using modern technologies like Angular, Spring Boot, React, Flutter, and Firebase — with solid backend systems and DevOps practices like Docker, Kubernetes, Helm, and Grafana.
           </p>
           <p className='py-2 text-gray-600'>
-          Throughout my professional journey, I have demonstrated expertise in various backend technologies, including Laravel,
-           PhpMyAdmin, Express.js, MongoDB, and Node.js. I have also excelled in frontend development, utilizing libraries
-            and frameworks such as React.js, HTML5, CSS, and JavaScript. My proficiency extends to other programming languages 
-            such as C++, C#, and PHP, showcasing my versatility and adaptability in different technological landscapes.
-
+          I’ve delivered freelance projects for startups, contributed to AI-powered digital twin research, and led full-cycle product development in both professional and academic settings. Whether it’s crafting responsive UIs, building robust APIs, or deploying distributed apps, I enjoy solving real-world problems through clean, maintainable code.
           </p>
           <p className='py-2 text-gray-600'>
-          Beyond my technical prowess, I hold a Bachelor&apos;s and Master&apos;s degree in Management Information Systems from
-           the Lebanese University. Fluent in Arabic, English, and French, I possess excellent communication skills,
-            enabling me to collaborate effectively with cross-functional teams and clients from diverse backgrounds.
+          I hold a Bachelor’s and Master’s degree in Management Information Systems from the Lebanese University. Fluent in Arabic, English, and French — and currently learning German — I value clear communication, continuous learning, and collaborative teamwork. I'm always open to new opportunities — whether it's full-time roles, freelance collaborations, or research-driven innovation.
 
 
 
