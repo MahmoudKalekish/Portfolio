@@ -16,6 +16,7 @@ Mahmoud Kalekish, Full Stack Developer, Software Engineer, Java Developer, Sprin
       <meta property="og:description" content="Explore Mahmoud's projects, resume, and contact info. Java, Spring Boot, Angular, Flutter, MERN, Docker, Kubernetes." />
       <meta property="og:image" content="https://mahmoud-kalekish.vercel.app/assets/navLogo.png" />
       <meta property="og:url" content="https://mahmoud-kalekish.vercel.app" />
+      <meta name="google-site-verification" content="YNK3UkkySF2_NT8B0CydOHeLZS5eeYPkvO1ueh1I1dM" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{
