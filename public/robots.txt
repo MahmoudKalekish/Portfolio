@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mahmoud-kalekish.vercel.app
+
+# Sitemaps
+Sitemap: https://mahmoud-kalekish.vercel.app/sitemap.xml
