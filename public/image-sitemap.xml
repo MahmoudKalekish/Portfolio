@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage Images -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/navLogo.png</image:loc>
+      <image:caption>Mahmoud Kalekish - Full-Stack Software Engineer Logo</image:caption>
+      <image:title>Mahmoud Kalekish Portfolio Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/Blue.jpg</image:loc>
+      <image:caption>Mahmoud Kalekish - Full-Stack Software Engineer and Co-founder of Merix</image:caption>
+      <image:title>About Mahmoud Kalekish</image:title>
+    </image:image>
+  </url>
+
+  <!-- Netflix Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/netflix</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/netflix.jpg</image:loc>
+      <image:caption>Netflix App Clone - Next.js streaming application with Firebase authentication</image:caption>
+      <image:title>Netflix Clone Project by Mahmoud Kalekish</image:title>
+    </image:image>
+  </url>
+
+  <!-- Need Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/need</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/need.png</image:loc>
+      <image:caption>Need - MERN Stack social platform application</image:caption>
+      <image:title>Need Social Platform Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- Lights Out Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/lights-out</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/lights.png</image:loc>
+      <image:caption>Lights Out - React JS puzzle game application</image:caption>
+      <image:title>Lights Out Game Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- JONCO Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/jonco</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/jonco.png</image:loc>
+      <image:caption>JONCO-MET Portfolio - MERN Stack business website</image:caption>
+      <image:title>JONCO-MET Portfolio Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- Dashboard Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/dashboard</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/dashboard.png</image:loc>
+      <image:caption>Financial Dashboard - LAMP Stack financial application</image:caption>
+      <image:title>Financial Dashboard Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- AVON Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/avon</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/avon.png</image:loc>
+      <image:caption>AVON - MERN Stack e-commerce application</image:caption>
+      <image:title>AVON E-commerce Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- No Limits Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/nolimits</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/nolimits.png</image:loc>
+      <image:caption>No Limits - React JS and Strapi JS content management application</image:caption>
+      <image:title>No Limits CMS Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- Nour International Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/nour</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/nour.png</image:loc>
+      <image:caption>Nour International - WordPress business website</image:caption>
+      <image:title>Nour International Website Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- YouTube Clone Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/youtube</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/youtube.png</image:loc>
+      <image:caption>YouTube Clone - React JS video streaming application</image:caption>
+      <image:title>YouTube Clone Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- Enigma Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/enigma</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/enigma.png</image:loc>
+      <image:caption>Enigma - HTML, CSS and JavaScript web application</image:caption>
+      <image:title>Enigma Web Application Project</image:title>
+    </image:image>
+  </url>
+
+  <!-- Portfolio Project -->
+  <url>
+    <loc>https://mahmoud-kalekish.vercel.app/portfolio</loc>
+    <image:image>
+      <image:loc>https://mahmoud-kalekish.vercel.app/assets/projects/portfolio.png</image:loc>
+      <image:caption>Portfolio Website - Next.js personal portfolio</image:caption>
+      <image:title>Personal Portfolio Project</image:title>
+    </image:image>
+  </url>
+
+</urlset>

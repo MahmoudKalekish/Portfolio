@@ -10,7 +10,13 @@ const Footer = () => {
       <div className='mb-4 md:mb-0'>
         <div className='w-20 md:w-30 mx-auto'>
         <Link href='/'>
-          <Image src={logo} alt="footer pic" layout="responsive" />
+          <Image 
+            src={logo} 
+            alt="Mahmoud Kalekish portfolio logo" 
+            width={120}
+            height={120}
+            className='w-full h-auto'
+          />
           </Link>
         </div>
       </div>
@@ -24,29 +30,33 @@ const Footer = () => {
           href='https://www.facebook.com/people/Mahmoud-Kalekish/pfbid0t2EEG3MWgUc1aVb66vpHkYN4H6Pd8ZvJ6Jz2b3Dsma1zJsHacXmG3tzDVVaHw9sKl/?mibextid=ZbWKwL'
           target='_blank'
           rel='noreferrer'
+          aria-label='Visit Mahmoud Kalekish Facebook profile'
         >
-          <FaFacebook />
+          <FaFacebook aria-hidden='true' />
         </a>
         <a
           href='https://www.instagram.com/mahmoud_kalekish/?igshid=ZGUzMzM3NWJiOQ%3D%3D'
           target='_blank'
           rel='noreferrer'
+          aria-label='Visit Mahmoud Kalekish Instagram profile'
         >
-          <FaInstagram />
+          <FaInstagram aria-hidden='true' />
         </a>
         <a
           href='https://www.linkedin.com/in/mahmoud-kalekish/'
           target='_blank'
           rel='noreferrer'
+          aria-label='Visit Mahmoud Kalekish LinkedIn profile'
         >
-          <FaLinkedin />
+          <FaLinkedin aria-hidden='true' />
         </a>
         <a
           href='https://github.com/MahmoudKalekish'
           target='_blank'
           rel='noreferrer'
+          aria-label='Visit Mahmoud Kalekish GitHub profile'
         >
-          <FaGithub />
+          <FaGithub aria-hidden='true' />
         </a>
       </div>
     </footer>
