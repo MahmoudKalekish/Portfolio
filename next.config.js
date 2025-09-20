@@ -5,6 +5,9 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   
+  // Node.js 22 compatibility
+  output: 'standalone',
+  
   // Image optimization
   images: {
     formats: ['image/webp', 'image/avif'],
