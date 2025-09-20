@@ -54,7 +54,7 @@ const netflix = () => {
             This app features comprehensive user authentication with Firebase as well as the
             Firestore cloud storage database. The application pulls movie data from the TMDB movie API
             and displays different categories with horizontal sliding functionality and a featured selection system.
-            The UI closely mimics Netflix's design with responsive layouts and smooth animations.
+            The UI closely mimics Netflix&apos;s design with responsive layouts and smooth animations.
           </p>
           <div className='flex gap-4 mt-6'>
             <a
