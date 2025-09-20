@@ -16,10 +16,17 @@ Your portfolio is now configured for **Node.js 22.x** compatibility to resolve t
 #### **For Vercel Deployment:**
 
 1. **Update Project Settings in Vercel Dashboard:**
-   - Go to your project settings
-   - Navigate to "General" → "Node.js Version"
+   - Go to your Vercel project dashboard
+   - Click on "Settings" tab
+   - Navigate to "General" section
+   - Find "Node.js Version" setting
    - Select **"22.x"** from the dropdown
-   - Save changes
+   - Click "Save" to apply changes
+
+2. **Alternative: Set via Environment Variable:**
+   - In Vercel Dashboard → Settings → Environment Variables
+   - Add: `NODE_VERSION` = `22`
+   - This ensures Node.js 22 is used for builds
 
 2. **Deploy with Updated Configuration:**
    ```bash
