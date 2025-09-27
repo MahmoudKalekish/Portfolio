@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          I&rsquo;m Mahmoud Kalekish, Co-founder of <a href='https://merixlb.com' target='_blank' rel='noopener noreferrer' className='text-[#5651e5] hover:underline'>Merix</a> and a Full-Stack Software Engineer based in Beirut, Lebanon. I specialize in building scalable web and mobile applications using modern technologies like Angular, Spring Boot, React, Flutter, and Firebase — with solid backend systems and DevOps practices like Docker, Kubernetes, Helm, and Grafana.
+          I&rsquo;m Mahmoud Kalekish, Co-founder of <a href='https://merixlb.com' target='_blank' rel='noopener noreferrer' className='text-[#5651e5] hover:underline'>Merix</a> and a Full-Stack Software Engineer based in Beirut, Lebanon, currently pursuing a PhD in Generative AI and Digital Twins. I specialize in building scalable web and mobile applications using modern technologies like Angular, Spring Boot, React, Flutter, and Firebase — with solid backend systems and DevOps practices like Docker, Kubernetes, Helm, and Grafana.
           </p>
           <p className='py-2 text-gray-600'>
           Through Merix and my freelance work, I&rsquo;ve delivered projects for startups, contributed to AI-powered digital twin research, and led full-cycle product development in both professional and academic settings. Whether it&rsquo;s crafting responsive UIs, building robust APIs, or deploying distributed apps, I enjoy solving real-world problems through clean, maintainable code.

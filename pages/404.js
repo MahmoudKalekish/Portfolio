@@ -47,10 +47,10 @@ const Custom404 = () => {
               Oops! Page Not Found
             </h1>
             <p className="text-lg text-gray-600 mb-2">
-              The page you're looking for seems to have wandered off into the digital void.
+              The page you&apos;re looking for seems to have wandered off into the digital void.
             </p>
             <p className="text-gray-500">
-              Don't worry, even the best developers encounter 404s sometimes! 😅
+              Don&apos;t worry, even the best developers encounter 404s sometimes! 😅
             </p>
           </div>
 
@@ -125,7 +125,7 @@ const Custom404 = () => {
           {/* Fun Message */}
           <div className="mt-8 text-center">
             <p className="text-gray-500 text-sm">
-              💡 <strong>Pro Tip:</strong> While you're here, why not check out my latest projects? 
+              💡 <strong>Pro Tip:</strong> While you&apos;re here, why not check out my latest projects? 
               <br />
               I promise they exist and work perfectly! 🚀
             </p>
