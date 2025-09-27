@@ -99,10 +99,10 @@ alt='Mahmoud Kalekish Logo'
               <Link href='/recommendations'>Recommendations</Link>
               <div className='btm_brdr'></div>
             </li>
-            <li className='ml-6 text-sm uppercase group relative li_wrp'>
+            {/* <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/client-reviews'>Reviews</Link>
               <div className='btm_brdr'></div>
-            </li>
+            </li> */}
             <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/resume'>Resume</Link>
               <div className='btm_brdr'></div>
@@ -209,13 +209,13 @@ alt='Mahmoud Kalekish Logo'
 
                 </li>
               </Link>
-              <Link href='/client-reviews'>
+              {/* <Link href='/client-reviews'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
                   Reviews
                   <div className='btm_brdr'></div>
 
                 </li>
-              </Link>
+              </Link> */}
               <Link href='/resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
                   Resume

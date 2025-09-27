@@ -38,7 +38,7 @@ module.exports = {
     }
 
     // New portfolio sections
-    if (path === '/certifications' || path === '/recommendations' || path === '/client-reviews') {
+    if (path === '/certifications' || path === '/recommendations') {
       customConfig.priority = 0.9;
       customConfig.changefreq = 'monthly';
     }
