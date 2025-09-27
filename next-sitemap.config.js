@@ -37,9 +37,16 @@ module.exports = {
       customConfig.changefreq = 'monthly';
     }
 
-    // Project pages
-    if (path.includes('/netflix') || path.includes('/need') || path.includes('/avon')) {
-      customConfig.priority = 0.8;
+    // New portfolio sections
+    if (path === '/certifications' || path === '/recommendations' || path === '/client-reviews') {
+      customConfig.priority = 0.9;
+      customConfig.changefreq = 'monthly';
+    }
+
+    // Key projects that showcase personal brand
+    if (path.includes('/merix') || path.includes('/portfolio')) {
+      customConfig.priority = 0.9;
+      customConfig.changefreq = 'monthly';
     }
 
     return customConfig;

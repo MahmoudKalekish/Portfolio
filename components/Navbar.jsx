@@ -66,7 +66,7 @@ const Navbar = () => {
           {/* <a> */}
           <Image
             src={NavLogo}
-            alt='/'
+alt='Mahmoud Kalekish Logo'
             width='125'
             height='50'
             className='cursor-pointer p-[10px]'
@@ -74,41 +74,49 @@ const Navbar = () => {
           {/* </a> */}
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+          <ul style={{ color: `${linkColor}` }} className='hidden xl:flex'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/'>Home</Link>
               <div className='btm_brdr'></div>
             </li>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/#about'>About</Link>
               <div className='btm_brdr'></div>
             </li>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/#skills'>Skills</Link>
               <div className='btm_brdr'></div>
-
             </li>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/#projects'>Projects</Link>
               <div className='btm_brdr'></div>
-
             </li>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
+              <Link href='/certifications'>Certifications</Link>
+              <div className='btm_brdr'></div>
+            </li>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
+              <Link href='/recommendations'>Recommendations</Link>
+              <div className='btm_brdr'></div>
+            </li>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
+              <Link href='/client-reviews'>Reviews</Link>
+              <div className='btm_brdr'></div>
+            </li>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/resume'>Resume</Link>
               <div className='btm_brdr'></div>
-
             </li>
-            <li className='ml-10 text-sm uppercase group relative li_wrp'>
+            <li className='ml-6 text-sm uppercase group relative li_wrp'>
               <Link href='/#contact'>Contact</Link>
               <div className='btm_brdr'></div>
-
             </li>
           </ul>
           {/* Hamburger Icon */}
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden cursor-pointer'
+            className='xl:hidden cursor-pointer'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -119,7 +127,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
+          nav ? 'xl:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
         }
       >
         {/* Side Drawer Menu */}
@@ -139,7 +147,7 @@ const Navbar = () => {
                   src={NavLogo}
                   width='87'
                   height='35'
-                  alt='/'
+      alt='Mahmoud Kalekish Logo'
                   className='ml-[-5px]'
                 />
                 {/* </a> */}
@@ -183,6 +191,27 @@ const Navbar = () => {
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
                   Projects
+                  <div className='btm_brdr'></div>
+
+                </li>
+              </Link>
+              <Link href='/certifications'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
+                  Certifications
+                  <div className='btm_brdr'></div>
+
+                </li>
+              </Link>
+              <Link href='/recommendations'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
+                  Recommendations
+                  <div className='btm_brdr'></div>
+
+                </li>
+              </Link>
+              <Link href='/client-reviews'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm group relative li_wrp'>
+                  Reviews
                   <div className='btm_brdr'></div>
 
                 </li>

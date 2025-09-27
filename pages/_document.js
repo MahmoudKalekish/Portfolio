@@ -4,12 +4,18 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+      {/* Favicon */}
+      <link rel="icon" href="/assets/navLogo.png" />
+      <link rel="apple-touch-icon" href="/assets/navLogo.png" />
+      
+      {/* Performance optimizations - Preconnect to external domains */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      
       <meta charSet="UTF-8" />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <meta name="author" content="Mahmoud Kalekish" />
-      <meta name="keywords" content="
-Mahmoud Kalekish, Merix Co-founder, merixlb.com, Merix, merix, Full Stack Developer, Software Engineer, Java Developer, Spring Boot Developer, Angular Developer, Flutter Developer, MERN Stack Developer, MEAN Stack Developer, Mobile App Developer, Web Developer, Backend Developer, Frontend Developer, React Developer, Next.js Developer, Node.js Developer, Express Developer, MongoDB Developer, MySQL Developer, DevOps Engineer, Docker, Kubernetes, GitHub Developer, Freelancer Developer, Remote Software Engineer, REST API Developer, Microservices, Digital Twin Developer, IoT Developer, System Analyst, Programmer, Web App Developer, Android Developer, Cross-platform Developer, JavaScript Expert, TypeScript Developer, HTML CSS Developer, Full Stack Lebanon, Full Stack Dubai, Software Developer Beirut, Software Engineer Portfolio, Hire Software Engineer, Software Engineering Projects, UI Developer, UX Developer, CV Mahmoud Kalekish, Mahmoud Kalikesh,Mahmoud kalakech, Mahmoud Kalakish, Mahmoud Kalesh, Mahmud Kalekish, Mahmoud Full Stack, Mahmoud Resume, Developer for Hire, Build Web Apps, Create Mobile App, API Integration, Software Consultant, Software Architect, Software Dev Portfolio, GitHub Projects, LinkedIn Software Engineer, Scalable App Developer, Web Performance Expert
-" />
+      <meta name="keywords" content="Mahmoud Kalekish, محمود كلاكش, Mahmoud Kalakech, Mahmoud Kalekesh, Mahmud Kalekish, Merix Co-founder, merixlb.com, Full Stack Developer, Full Stack Engineer, Software Engineer, Java Spring Boot Developer, Angular React Developer, Flutter Mobile Developer, Lebanon Software Engineer, Beirut Developer, Middle East Tech Expert, Arabic Developer محمود مطور, Software Consultant, Digital Solutions Expert, Web Mobile App Developer, DevOps Engineer Docker Kubernetes, JavaScript TypeScript Expert, Database MySQL MongoDB, API REST Developer, Scalable Applications, International Software Projects, Remote Developer, Freelance Engineer, Tech Entrepreneur, Startup Co-founder, Lebanese Programmer, Arabic Software Engineer, مهندس برمجيات, مطور تطبيقات, Full Stack Lebanon Dubai, Software Portfolio CV Resume, Hire Mahmoud Kalekish, Contact Developer Lebanon" />
       <meta name="description" content="Official portfolio of Mahmoud Kalekish – Co-founder of Merix (merixlb.com) and Full Stack Software Engineer building scalable web & mobile apps with Java, Angular, React, Flutter, and DevOps." />
       <meta property="og:title" content="Mahmoud Kalekish | Co-founder of Merix | Full Stack Software Engineer" />
       <meta property="og:description" content="Explore Mahmoud's projects, resume, and contact info. Co-founder of Merix (merixlb.com). Java, Spring Boot, Angular, Flutter, MERN, Docker, Kubernetes." />

@@ -12,6 +12,9 @@ import youtubeImg from '../public/assets/projects/youtube.png'
 import enigmaImg from '../public/assets/projects/enigma.png';
 import portfolioImg from '../public/assets/projects/portfolio.png';
 import needImg from '../public/assets/projects/need.png';
+import merixImg from '../public/assets/projects/merix.png';
+import treatYouBetterImg from '../public/assets/projects/tyb-cookie.png';
+import questItImg from '../public/assets/projects/quest-it.png';
 
 import ProjectItem from './ProjectItem';
 
@@ -24,6 +27,24 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Merix - Digital Solutions Company'
+            backgroundImg={merixImg}
+            projectUrl='/merix'
+            tech='Full-Stack Solutions'
+          />
+          <ProjectItem
+            title='Treat You Batter - Coffee Shop System'
+            backgroundImg={treatYouBetterImg}
+            projectUrl='/treat-you-better'
+            tech='Spring Boot & Angular'
+          />
+          <ProjectItem
+            title='Quest It - Service Marketplace'
+            backgroundImg={questItImg}
+            projectUrl='/quest-it'
+            tech='Flutter & Firebase'
+          />
           <ProjectItem
             title='Need'
             backgroundImg={needImg}

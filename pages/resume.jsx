@@ -60,7 +60,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-        Full-Stack Software Engineer with expertise in building scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and Firebase. Experienced in deploying robust backend systems, crafting responsive UIs, and leveraging DevOps tools like Docker, Kubernetes, and Helm. Passionate about delivering real-world solutions through clean, maintainable code and continuous learning.
+        Full-Stack Software Engineer with 3+ years of experience designing and delivering scalable web and mobile solutions. Skilled in Angular, Spring Boot, MERN, and Flutter, with a growing focus on DevOps (Docker, Kubernetes) and applied AI research through ongoing PhD studies in Generative AI and Digital Twins. Proven ability to work across the full development lifecycle, contribute to digital twin simulations, and deliver high-impact freelance projects for startups and businesses. Eager to leverage technical expertise and research-driven approach to deliver innovative, efficient solutions that align with company goals and drive long-term growth.
 
         </p>
 
@@ -139,10 +139,10 @@ const resume = () => {
 
         </div>
 
-        {/* <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
-        /* Experience 
+        {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -152,57 +152,14 @@ const resume = () => {
           </p>
           <p className='py-1 italic'> Full-Stack Engineer <span className='px-2'>|</span>October 2023 - Present</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-            Spearheading the development of end-to-end solutions using Angular for the frontend and Java with Spring Boot for the backend.
-            </li>
-            <li>
-            Identified and resolved critical bugs promptly, ensuring the uninterrupted stability and reliability of mission-critical applications.
-            </li>
-            <li>
-            Implemented advanced debugging techniques, streamlining the development process and reducing time-to-resolution.
-            </li>
-            <li>
-            Played a key role in the development of new features and enhancements, consistently adhering to best practices and coding standards.
-            </li>
-            <li>
-            Collaborated seamlessly with cross-functional teams, contributing to on-time delivery of high-quality solutions.
-            </li>
-            <li>
-            Implemented Liquibase for systematic database schema management, maintaining version control and ensuring consistent database changes.
-            </li>
-            <li>
-            Led database migration efforts, providing critical support for seamless updates and enhancements.
-            </li>
-            <li>
-            Successfully integrated and optimized third-party APIs, expanding the functionality of applications and improving overall performance.
-            </li>
-            <li>
-            Evaluated and selected APIs based on project requirements, demonstrating a deep understanding of integration complexities.
-            </li>
-            <li>
-            Actively collaborated with team members to achieve project goals, contributing valuable insights during code reviews.
-            </li>
-            <li>
-            Participated in daily stand-up meetings, fostering a collaborative environment and ensuring effective communication within the team.
-            </li>
-            <li>
-            Adapted seamlessly to Agile methodologies, playing a pivotal role in sprint planning, retrospectives, and ensuring the timely delivery of software solutions.
-            </li>
-            <li>
-            Demonstrated flexibility in responding to evolving project requirements and maintaining a focus on iterative development.
-            </li>
-            <li>
-            Proactively pursued ongoing learning initiatives, staying abreast of the latest technologies and integrating them into projects for enhanced efficiency.
-            </li>
-            <li>
-            Rapidly adapted to changing project dynamics, showcasing a commitment to continuous improvement.
-            </li>
-            <li>
-            Maintained meticulous documentation for the codebase, configurations, and API integrations, facilitating knowledge transfer and future collaboration.
-            </li>
-            <li>
-            Applied a strong analytical mindset and problem-solving skills to address complex issues efficiently, contributing to the overall stability of the software ecosystem.
-            </li>
+            <li>Architecting and delivering end-to-end solutions using Angular (frontend) and Spring Boot (backend).</li>
+            <li>Integrated ZKTeco BioTime, BioTimeCloud, BioSecurity & BioAccess, boosting access control and time-tracking efficiency by ~30%, reducing manual interventions.</li>
+            <li>Led database migration efforts and implemented Liquibase for schema version control, cutting deployment errors by 40%.</li>
+            <li>Resolved critical bugs using advanced debugging techniques, improving system stability and reducing downtime by 25%.</li>
+            <li>Integrated and optimized third-party APIs, enhancing overall performance.</li>
+            <li>Collaborated in cross-functional Agile teams — sprint planning, retrospectives, daily stand-ups.</li>
+            <li>Participated in code reviews and peer mentoring, ensuring high-quality, maintainable code.</li>
+            <li>Maintained thorough documentation of codebase, configs, and API integrations, reducing onboarding time for new developers by ~50%.</li>
           </ul>
         </div>
 
@@ -212,25 +169,15 @@ const resume = () => {
             <span className='font-bold italic'>
               BEANZ
             </span>
-            <span className='px-2'>|</span>Abu Dhabi Emirate, United Arab Emirates
+            <span className='px-2'>|</span>Abu Dhabi, United Arab Emirates
           </p>
-          <p className='py-1 italic'> Software Engineer <span className='px-2'>|</span>July 2023 - October 2023</p>
+          <p className='py-1 italic'> Remote Software Engineer <span className='px-2'>|</span>July 2023 - October 2023</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-            Developed dynamic and responsive user interfaces using ReactJS, TypeScript, and Tailwind CSS.
-            </li>
-            <li>
-            Collaborated remotely with a cross-functional team, utilizing tools such as Jira, Bitbucket, and Git for version control and project tracking.
-            </li>
-            <li>
-            Implemented multilingual support, including Arabic language, using the React i18n library, enhancing user experiences for a diverse audience.
-            </li>
-            <li>
-            Dockerized web applications for streamlined deployment, ensuring consistency and reliability across various environments.
-            </li>
-            <li>
-            Contributed to the successful development and deployment of various web applications and projects, ensuring optimal performance, accessibility, and efficient containerization.
-            </li>
+            <li>Built responsive, dynamic user interfaces using React.js, TypeScript, and Tailwind CSS.</li>
+            <li>Integrated multilingual support (including Arabic) using React i18n, enhancing accessibility for a diverse user base.</li>
+            <li>Dockerized applications for consistent and efficient deployment across environments.</li>
+            <li>Collaborated in a fully remote, cross-functional team using Jira, Bitbucket, and Git for task management and version control.</li>
+            <li>Contributed to the successful delivery of high-performance web applications with a focus on accessibility, localization, and containerization best practices.</li>
           </ul>
         </div>
 
@@ -245,146 +192,63 @@ const resume = () => {
           </p>
           <p className='py-1 italic'>Full Stack Web Developer <span className='px-2'>|</span>Nov 2022 - June 2023</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Used various Backend technologies including Laravel, PhpMyAdmin, Express.js, MongoDB,
-              Postman API, REST APIs, API Development, SQLite, Node.js, PHP.
-            </li>
-            <li>
-              Developed the Frontend of several projects using various libraries and frameworks such as
-              React.js, HTML5, Cascading Style Sheets (CSS), JavaScript, React Native.
-            </li>
-            <li>
-              Worked on administering and maintaining the server hardware and software using LAMP Stack
-              and Linux.
-            </li>
-            <li>
-              Implemented Docker to containerize applications, ensuring consistent deployment across
-              different environments.
-            </li>
-            <li>
-              Applied the AGILE Methodology of Project Management to plan, organize, and control the flow of
-              work through my projects.
-            </li>
-            <li>
-              Worked on WordPress, a Content Management System, that allows users to create, manage and
-              publish digital content, typically on the web.
-            </li>
+            <li>Developed full-stack applications using a range of backend technologies including Laravel, Express.js, Node.js, MongoDB, PHP, SQLite, and REST APIs.</li>
+            <li>Designed and built responsive frontends using React.js, React Native, JavaScript, HTML5, and CSS.</li>
+            <li>Built and tested APIs with Postman, and implemented efficient API-driven architectures.</li>
+            <li>Containerized applications with Docker ensuring consistent deployment across environments.</li>
+            <li>Administered and maintained server environments using LAMP Stack on Linux.</li>
+            <li>Followed Agile methodologies for project planning, task tracking, and team collaboration.</li>
+            <li>Managed and customized websites using WordPress CMS, focusing on usability and content publishing.</li>
+            <li>Delivered 5+ production-ready applications within tight deadlines.</li>
           </ul>
-        </div> */}
+        </div>
 
-<h5 className='text-center underline text-[18px] py-4'>
-  Professional Experience
-</h5>
-
-{/* IN2 Experience */}
-<div className='py-6'>
-  <p className='italic'>
-    <span className='font-bold italic'>IN2</span>
-    <span className='px-2'>|</span>Beirut, Lebanon
-  </p>
-  <p className='py-1 italic'>Full-Stack Engineer <span className='px-2'>|</span>October 2023 – Present</p>
-  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-    <li>Developed end-to-end enterprise solutions using Angular and Spring Boot.</li>
-    <li>Integrated biometric systems including ZKTeco BioTime, BioSecurity, and BioAccess for time and access management.</li>
-    <li>Implemented Liquibase for schema version control and managed database migrations.</li>
-    <li>Resolved critical bugs and performance issues using advanced debugging techniques.</li>
-    <li>Integrated and optimized third-party APIs to extend system capabilities.</li>
-    <li>Participated in Agile ceremonies and collaborated closely with cross-functional teams.</li>
-    <li>Maintained clean, well-documented code and contributed actively to code reviews.</li>
-  </ul>
-</div>
-
-{/* Merix Experience */}
-<div className='py-6'>
-  <p className='italic'>
-  <span className='font-bold italic'>Freelance (Self-Employed)</span>
-  {/* <span className='px-2'>|</span>Remote */}
-    {/* <span className='font-bold italic'>Merix</span>
-    <span className='px-2'>|</span>merixlb.com */}
-  </p>
-  <p className='py-1 italic'>Freelance Software Engineer <span className='px-2'>|</span>October 2021 – Present</p>
-  {/* <p className='py-1 italic'>Co-founder & Software Engineer <span className='px-2'>|</span>October 2023 – Present</p> */}
-  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-    <li>Delivered full-stack mobile and web applications from design to deployment.</li>
-    <li>Collaborated with clients to define technical requirements and build custom solutions.</li>
-    <li>Built scalable systems using Spring Boot, Angular, Flutter, React, and Firebase.</li>
-    <li>Integrated REST APIs, payment gateways, Firebase Auth, and Google Maps services.</li>
-    <li>Deployed apps using Docker, Kubernetes, AWS, and Hostinger.</li>
-    <li>Notable Projects:
-      <ul className='list-disc list-inside ml-4'>
-        <li><strong>Quest It:</strong> A mobile app and web dashboard connecting users with freelance service providers.</li>
-        <li><strong>TreatYouBatter:</strong> A business management platform for product & service oversight with role-based access and real-time dashboards.</li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-{/* BEANZ Experience */}
-<div className='py-6'>
-  <p className='italic'>
-    <span className='font-bold italic'>BEANZ</span>
-    <span className='px-2'>|</span>Abu Dhabi Emirate, United Arab Emirates (Remote)
-  </p>
-  <p className='py-1 italic'>Software Engineer <span className='px-2'>|</span>July 2023 – October 2023</p>
-  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-    <li>Developed responsive UIs using ReactJS, TypeScript, and Tailwind CSS.</li>
-    <li>Enabled multilingual support using React i18n, including Arabic localization.</li>
-    <li>Dockerized applications for consistent, production-grade deployments.</li>
-    <li>Collaborated remotely with a cross-functional team using Jira and Bitbucket.</li>
-    <li>Delivered performant, accessible, and scalable web applications across multiple environments.</li>
-  </ul>
-</div>
-
-{/* Codi Tech Experience */}
-<div className='py-6'>
-  <p className='italic'>
-    <span className='font-bold italic'>Codi Tech</span>
-    <span className='px-2'>|</span>Beirut, Lebanon
-  </p>
-  <p className='py-1 italic'>Full-Stack Developer <span className='px-2'>|</span>Nov 2022 – October 2023</p>
-  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-    <li>Developed full-stack web apps using Laravel, Express.js, Node.js, and MongoDB.</li>
-    <li>Built frontend interfaces with React.js, React Native, HTML5, and JavaScript.</li>
-    <li>Managed WordPress-based websites and implemented custom CMS features.</li>
-    <li>Containerized applications using Docker and maintained LAMP stack servers.</li>
-    <li>Practiced Agile project management and contributed to sprint planning and task tracking.</li>
-  </ul>
-</div>
-
-{/* Teaching Experience */}
-<div className='py-6'>
-  <p className='italic'>
-    <span className='font-bold italic'>Lebanese University (Self-Employed)</span>
-    <span className='px-2'>|</span>Beirut, Lebanon
-  </p>
-  <p className='py-1 italic'>University Tutor <span className='px-2'>|</span>July 2021 – Present</p>
-  <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-    <li>Delivered private tutoring sessions to university students in technical subjects.</li>
-    <li>Specialized in Data Structures (C), Algorithms, System Analysis, Web Development, and .NET applications.</li>
-    <li>Helped students build practical project skills and pass core programming courses.</li>
-    <li>Provided guidance on database modeling, UML, and problem-solving techniques.</li>
-  </ul>
-</div>
-
-
-
-        {/* Education */}
+        {/* Merix Experience */}
         <div className='py-6'>
-          {/* <h5 className='text-center underline text-[18px] py-4'>
-            Education
-          </h5>
-          <p className='py-2'>
-            <span className='font-bold'>Lebanese University</span>
-            <p className='py-2'><span className='font-bold'>Master’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2023 – 2024</p>
-            </p>
-          <p className='py-2'>
-            <span className='font-bold'>Lebanese University</span>
-            <p className='py-2'><span className='font-bold'>Bachelor’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2019 – 2022</p>
-            </p> */}
-            <h5 className='text-center underline text-[18px] py-4'>Education</h5>
-<p className='py-2'><span className='font-bold'>Master’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2022 – 2024</p>
-<p className='py-2'><span className='font-bold'>Bachelor’s in Management Information Systems</span> <span className='px-2'>|</span> Lebanese University, Beirut <span className='px-2'>|</span> 2019 – 2022</p>
+          <p className='italic'>
+            <span className='font-bold italic'>Merix</span>
+            <span className='px-2'>|</span>Beirut, Lebanon
+          </p>
+          <p className='py-1 italic'>Full-Stack Software Engineer <span className='px-2'>|</span>October 2021 – Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Delivered 10+ full-stack web and mobile applications for startups and businesses, accelerating product launches and supporting scalability.</li>
+            <li>Collaborated directly with clients to define requirements, translating business needs into tailored technical solutions with high client satisfaction and repeat engagements.</li>
+            <li>Built scalable systems using Spring Boot, Angular, Flutter, React, and Firebase, supporting applications with hundreds of active users.</li>
+            <li>Integrated REST APIs, payment gateways, Firebase Auth, and third-party services.</li>
+            <li>Deployed applications using Docker, Kubernetes, AWS, and Hostinger.</li>
+          </ul>
+        </div>
 
+        {/* Education Section */}
+        <h5 className='text-center underline text-[18px] py-4'>
+          Education
+        </h5>
+        
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>PhD in Generative AI and Digital Twins (Ongoing)</span>
+            <span className='px-2'>|</span>Lebanese University
+          </p>
+          <p className='py-1 italic'>Beirut, Lebanon <span className='px-2'>|</span>2025 - Present</p>
+          <p className='py-2'>
+            Advanced research in Generative AI applications and Digital Twin simulations, contributing to cutting-edge AI research and practical implementations.
+          </p>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>MA in Management Information System</span>
+            <span className='px-2'>|</span>Lebanese University
+          </p>
+          <p className='py-1 italic'>Beirut, Lebanon <span className='px-2'>|</span>2022 - 2024</p>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>BA in Management Information System</span>
+            <span className='px-2'>|</span>Lebanese University
+          </p>
+          <p className='py-1 italic'>Beirut, Lebanon <span className='px-2'>|</span>2019 - 2022</p>
         </div>
 
         {/* Languages */}
@@ -393,7 +257,7 @@ const resume = () => {
             Languages
           </h5>
           <p className='py-2'>
-          Arabic (Native), English (Proficient), French (Proficient), German (Beginner – currently learning)
+            Arabic (Native), English (Proficient), French (Proficient), German (Beginner – currently learning)
           </p>
 
         </div>
