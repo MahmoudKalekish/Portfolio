@@ -292,7 +292,7 @@ const ClientReviews = () => {
                     <div className='relative mb-6'>
                       <FaQuoteLeft className='text-2xl text-blue-200 absolute -top-1 -left-1' />
                       <blockquote className='text-gray-700 leading-relaxed pl-6 italic'>
-                        "{review.review}"
+                        &ldquo;{review.review}&rdquo;
                       </blockquote>
                     </div>
 
@@ -341,7 +341,7 @@ const ClientReviews = () => {
           <div className='mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center text-white'>
             <h3 className='text-3xl font-bold mb-4'>Ready to Start Your Project?</h3>
             <p className='text-lg mb-6 opacity-90'>
-              Join these satisfied clients and let's build something amazing together.
+              Join these satisfied clients and let&apos;s build something amazing together.
             </p>
             <Link href='/#contact' className='inline-flex items-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300'>
               <FaProjectDiagram className='mr-2' />

@@ -224,7 +224,7 @@ const Recommendations = () => {
                 <div className='relative mb-6'>
                   <FaQuoteLeft className='text-4xl text-blue-200 absolute -top-2 -left-2' />
                   <blockquote className='text-gray-700 leading-relaxed pl-8 italic break-words'>
-                    "{rec.recommendation}"
+                    &ldquo;{rec.recommendation}&rdquo;
                   </blockquote>
                 </div>
 

@@ -133,7 +133,7 @@ const TreatYouBetter = () => {
 
               <p className='text-gray-700 leading-relaxed mb-6'>
                 This project successfully replaced manual spreadsheet tracking with a modern, intuitive application that improved 
-                operational efficiency and customer satisfaction. The system's real-time notification feature allows staff to 
+                operational efficiency and customer satisfaction. The system&apos;s real-time notification feature allows staff to 
                 react instantly to new orders and inventory shortages, significantly reducing delays.
               </p>
 
