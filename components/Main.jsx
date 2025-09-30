@@ -7,9 +7,9 @@ import { HiOutlineChevronDoubleDown, HiOutlineChevronDoubleUp } from 'react-icon
 
 const Main = () => {
   return (
-    <section id='home' className='w-full h-screen text-center pt-20 md:pt-36' aria-labelledby='hero-heading'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center md:items-center items-start'>
-        <div className='md:mt-16'>
+    <section id='home' className='w-full h-screen text-center pt-36' aria-labelledby='hero-heading'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
