@@ -129,13 +129,13 @@ const resume = () => {
           </p> */}
 
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'><span className='font-bold'>Frontend:</span> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux</p>
-          <p className='py-2'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL</p>
-          <p className='py-2'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis</p>
-          <p className='py-2'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx, AWS, Hostinger, Jira</p>
-          <p className='py-2'><span className='font-bold'>Mobile Development:</span> Flutter, React Native, Android Studio (Java)</p>
-          <p className='py-2'><span className='font-bold'>CMS & Design:</span> WordPress, Figma, StrapiJS, Shopify</p>
-          <p className='py-2'><span className='font-bold'>Programming Languages:</span> Java, C++, C#, PHP, Python</p>
+          <p className='py-2 px-4'><span className='font-bold'>Frontend:</span> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux</p>
+          <p className='py-2 px-4'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL</p>
+          <p className='py-2 px-4'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis</p>
+          <p className='py-2 px-4'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx, AWS, Hostinger, Jira</p>
+          <p className='py-2 px-4'><span className='font-bold'>Mobile Development:</span> Flutter, React Native, Android Studio (Java)</p>
+          <p className='py-2 px-4'><span className='font-bold'>CMS & Design:</span> WordPress, Figma, StrapiJS, Shopify</p>
+          <p className='py-2 px-4'><span className='font-bold'>Programming Languages:</span> Java, C++, C#, PHP, Python</p>
 
         </div>
 
