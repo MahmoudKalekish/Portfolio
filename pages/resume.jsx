@@ -7,8 +7,8 @@ const resume = () => {
   return (
     <>
       <Head>
-      <title>Mahmoud Kalekish | Resume | Full-Stack Software Engineer</title>
-      <meta name="description" content="Resume of Mahmoud Kalekish – Full-Stack Software Engineer specializing in scalable web & mobile development, cloud deployments, and modern DevOps tools." />
+        <title>Mahmoud Kalekish | Resume | Full-Stack Software Engineer</title>
+        <meta name="description" content="Resume of Mahmoud Kalekish – Full-Stack Software Engineer specializing in scalable web & mobile development, cloud deployments, and modern DevOps tools." />
 
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -60,7 +60,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-        Full-Stack Software Engineer with 3+ years of experience designing and delivering scalable web and mobile solutions. Skilled in Angular, Spring Boot, MERN, and Flutter, with a growing focus on DevOps (Docker, Kubernetes) and applied AI research through ongoing PhD studies in Generative AI and Digital Twins. Proven ability to work across the full development lifecycle, contribute to digital twin simulations, and deliver high-impact freelance projects for startups and businesses. Eager to leverage technical expertise and research-driven approach to deliver innovative, efficient solutions that align with company goals and drive long-term growth.
+          Full-Stack Software Engineer with 3+ years of experience designing and delivering scalable web and mobile solutions. Skilled in Angular, Spring Boot, MERN, and Flutter, with a growing focus on DevOps (Docker, Kubernetes) and applied AI research through ongoing PhD studies in Generative AI and Digital Twins. Proven ability to work across the full development lifecycle, contribute to digital twin simulations, and deliver high-impact freelance projects for startups and businesses. Eager to leverage technical expertise and research-driven approach to deliver innovative, efficient solutions that align with company goals and drive long-term growth.
 
         </p>
 
@@ -128,14 +128,14 @@ const resume = () => {
 
           </p> */}
 
-<h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-<p className='py-2'><span className='font-bold'>Frontend:</span> HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux, React Native</p>
-<p className='py-2'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL, SQLite</p>
-<p className='py-2'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis, PhpMyAdmin</p>
-<p className='py-2'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx</p>
-<p className='py-2'><span className='font-bold'>Mobile Development:</span> Flutter, Android Studio (Java), React Native</p>
-<p className='py-2'><span className='font-bold'>CMS & UI/UX:</span> WordPress, Figma, StrapiJS</p>
-<p className='py-2'><span className='font-bold'>Languages:</span> Java, C++, C#, PHP, Python</p>
+          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+          <p className='py-2'><span className='font-bold'>Frontend:</span> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux</p>
+          <p className='py-2'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL</p>
+          <p className='py-2'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis</p>
+          <p className='py-2'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx, AWS, Hostinger, Jira</p>
+          <p className='py-2'><span className='font-bold'>Mobile Development:</span> Flutter, React Native, Android Studio (Java)</p>
+          <p className='py-2'><span className='font-bold'>CMS & Design:</span> WordPress, Figma, StrapiJS, Shopify</p>
+          <p className='py-2'><span className='font-bold'>Programming Languages:</span> Java, C++, C#, PHP, Python</p>
 
         </div>
 
@@ -157,13 +157,28 @@ const resume = () => {
             <li>Led database migration efforts and implemented Liquibase for schema version control, cutting deployment errors by 40%.</li>
             <li>Resolved critical bugs using advanced debugging techniques, improving system stability and reducing downtime by 25%.</li>
             <li>Integrated and optimized third-party APIs, enhancing overall performance.</li>
-            <li>Collaborated in cross-functional Agile teams — sprint planning, retrospectives, daily stand-ups.</li>
+            <li>Collaborated in Agile teams on sprint planning, retrospectives, and daily stand-ups.</li>
             <li>Participated in code reviews and peer mentoring, ensuring high-quality, maintainable code.</li>
-            <li>Maintained thorough documentation of codebase, configs, and API integrations, reducing onboarding time for new developers by ~50%.</li>
+            <li>Maintained documentation of codebase, configs, and API integrations, reducing onboarding time by ~50%.</li>
           </ul>
         </div>
 
-        
+        {/* Merix Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>Merix</span>
+            <span className='px-2'>|</span>Beirut, Lebanon
+          </p>
+          <p className='py-1 italic'>Full-Stack Software Engineer <span className='px-2'>|</span>October 2021 – Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Delivered 10+ full-stack web and mobile applications for startups and businesses, accelerating product launches and supporting scalability.</li>
+            <li>Collaborated directly with clients to define requirements, translating business needs into tailored technical solutions with high client satisfaction and repeat engagements.</li>
+            <li>Built scalable systems using Spring Boot, Angular, Flutter, React, and Firebase, supporting applications with hundreds of active users.</li>
+            <li>Integrated REST APIs, payment gateways, Firebase Auth, and third-party services.</li>
+            <li>Deployed applications using Docker, Kubernetes, AWS, and Hostinger.</li>
+          </ul>
+        </div>
+
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -190,7 +205,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Beirut, Lebanon
           </p>
-          <p className='py-1 italic'>Full Stack Web Developer <span className='px-2'>|</span>Nov 2022 - June 2023</p>
+          <p className='py-1 italic'>Full Stack Web Developer <span className='px-2'>|</span>November 2022 - June 2023</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>Developed full-stack applications using a range of backend technologies including Laravel, Express.js, Node.js, MongoDB, PHP, SQLite, and REST APIs.</li>
             <li>Designed and built responsive frontends using React.js, React Native, JavaScript, HTML5, and CSS.</li>
@@ -203,37 +218,27 @@ const resume = () => {
           </ul>
         </div>
 
-        {/* Merix Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>Merix</span>
-            <span className='px-2'>|</span>Beirut, Lebanon
-          </p>
-          <p className='py-1 italic'>Full-Stack Software Engineer <span className='px-2'>|</span>October 2021 – Present</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>Delivered 10+ full-stack web and mobile applications for startups and businesses, accelerating product launches and supporting scalability.</li>
-            <li>Collaborated directly with clients to define requirements, translating business needs into tailored technical solutions with high client satisfaction and repeat engagements.</li>
-            <li>Built scalable systems using Spring Boot, Angular, Flutter, React, and Firebase, supporting applications with hundreds of active users.</li>
-            <li>Integrated REST APIs, payment gateways, Firebase Auth, and third-party services.</li>
-            <li>Deployed applications using Docker, Kubernetes, AWS, and Hostinger.</li>
-          </ul>
-        </div>
 
         {/* Education Section */}
         <h5 className='text-center underline text-[18px] py-4'>
           Education
         </h5>
-        
+
+
+
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>PhD in Generative AI and Digital Twins (Ongoing)</span>
-            <span className='px-2'>|</span>Lebanese University
+            <span className='px-2'>|</span>Université de Liège (ULiège)
           </p>
-          <p className='py-1 italic'>Beirut, Lebanon <span className='px-2'>|</span>2025 - Present</p>
+          <p className='py-1 italic'>
+            Liège, Belgium <span className='px-2'>|</span> 2025 – Present (Expected 2028)
+          </p>
           <p className='py-2'>
-            Advanced research in Generative AI applications and Digital Twin simulations, contributing to cutting-edge AI research and practical implementations.
+            Conducting advanced research in Generative AI and Digital Twin simulations, bridging academic innovation with practical applications for intelligent systems.
           </p>
         </div>
+
 
         <div className='py-6'>
           <p className='italic'>
@@ -256,11 +261,14 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-4'>
             Languages
           </h5>
-          <p className='py-2'>
-            Arabic (Native), English (Proficient), French (Proficient), German (Beginner – currently learning)
-          </p>
-
+          <ul className='list-disc list-inside space-y-1'>
+            <li>Arabic — Native</li>
+            <li>English — Proficient</li>
+            <li>French — Proficient</li>
+            <li>German — Beginner (currently learning)</li>
+          </ul>
         </div>
+
 
       </div>
       <Footer />
