@@ -248,15 +248,27 @@ const Certifications = () => {
       <div className='w-full overflow-x-hidden'>
         {/* Header Section */}
         <div className='w-screen h-[50vh] relative'>
-          <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-          <Image
-            className='absolute z-1'
-            layout='fill'
-            objectFit='cover'
-            src='/assets/projects/certificates-bg.jpg'
-            alt='Mahmoud Kalekish Logo Professional Certifications Background'
-            priority
-          />
+          {/* Mobile: Enhanced Gradient Background */}
+          <div className='absolute top-0 left-0 w-full h-[50vh] bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 md:hidden z-1'>
+            {/* Animated circles for visual interest */}
+            <div className='absolute top-10 right-10 w-32 h-32 bg-blue-400 rounded-full opacity-20 blur-3xl animate-pulse'></div>
+            <div className='absolute bottom-20 left-10 w-40 h-40 bg-indigo-400 rounded-full opacity-20 blur-3xl animate-pulse' style={{animationDelay: '1s'}}></div>
+            <div className='absolute top-1/2 left-1/2 w-36 h-36 bg-purple-400 rounded-full opacity-10 blur-3xl animate-pulse' style={{animationDelay: '2s'}}></div>
+          </div>
+          
+          {/* Desktop: Banner Image with Overlay */}
+          <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10 hidden md:block' />
+          <div className='hidden md:block absolute top-0 left-0 w-full h-[50vh] z-1'>
+            <Image
+              layout='fill'
+              objectFit='cover'
+              objectPosition='center'
+              src='/assets/MahmoudKalekish-banner.png'
+              alt='Mahmoud Kalekish Logo Professional Certifications Background'
+              priority
+            />
+          </div>
+          
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h1 className='py-2'>Licenses & Certifications</h1>
             <h2 className='text-2xl'>Continuous Learning & Professional Development</h2>
@@ -362,17 +374,33 @@ const Certifications = () => {
           </div>
           
           {/* Sidebar */}
-          <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
-            <div className='p-2'>
-              <p className='text-center font-bold pb-2'>Professional Growth</p>
-              <div className='text-center py-4 m-auto'>
-                <FaCertificate className='text-6xl text-blue-500 mx-auto mb-4' />
-                <p className='text-gray-600 pb-4 px-2'>
-                  Committed to continuous learning and staying current with industry trends and technologies.
-                </p>
-                <div className='bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 rounded-lg'>
-                  <h4 className='font-bold text-lg mb-2'>{certifications.length}+</h4>
-                  <p className='text-sm'>Professional Certifications</p>
+          <div className='col-span-4 md:col-span-1 h-fit sticky top-4'>
+            <div className='bg-gradient-to-br from-blue-50 via-white to-indigo-50 shadow-xl shadow-gray-400 rounded-xl p-6 border border-blue-100'>
+              <h3 className='text-center font-bold text-lg text-gray-800 mb-4'>Professional Growth</h3>
+              
+              {/* Animated Certificate Icon */}
+              <div className='relative inline-block w-full mb-4'>
+                <div className='absolute inset-0 bg-blue-400 rounded-full blur-xl opacity-30 animate-pulse'></div>
+                <FaCertificate className='relative text-6xl text-blue-500 mx-auto drop-shadow-lg transform hover:scale-110 transition-transform duration-300' />
+              </div>
+              
+              {/* Stats Card */}
+              <div className='bg-gradient-to-r from-blue-500 to-blue-600 text-white p-5 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 mb-4 text-center'>
+                <h4 className='font-bold text-3xl mb-1'>{certifications.length}+</h4>
+                <p className='text-xs font-medium tracking-wide'>Professional Certifications</p>
+              </div>
+              
+              <p className='text-gray-600 text-xs leading-relaxed text-center mb-4'>
+                Committed to continuous learning and staying current with industry trends.
+              </p>
+              
+              {/* Focus Areas */}
+              <div className='bg-white p-3 rounded-lg shadow-sm border border-blue-100'>
+                <p className='text-xs text-gray-500 uppercase tracking-wide mb-2 text-center font-semibold'>Focus Areas</p>
+                <div className='flex flex-wrap gap-1 justify-center'>
+                  <span className='text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full'>Cloud</span>
+                  <span className='text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full'>Security</span>
+                  <span className='text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full'>Full-Stack</span>
                 </div>
               </div>
             </div>
@@ -382,9 +410,18 @@ const Certifications = () => {
         {/* Back to Portfolio */}
         <div className='flex justify-center pb-12 pt-8 mt-8'>
           <Link href='/'>
-            <p className='underline cursor-pointer text-blue-600 hover:text-blue-800 transition-colors duration-300'>
+            <button className='group relative inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300'>
+              <svg 
+                className='w-5 h-5 transform group-hover:-translate-x-1 transition-transform duration-300' 
+                fill='none' 
+                stroke='currentColor' 
+                viewBox='0 0 24 24'
+              >
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M10 19l-7-7m0 0l7-7m-7 7h18' />
+              </svg>
               Back to Portfolio
-            </p>
+              <span className='absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300'></span>
+            </button>
           </Link>
         </div>
         </div>

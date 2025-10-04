@@ -48,7 +48,7 @@ import telegraf from '../public/assets/skills/telegraf.png';
 import kafka from '../public/assets/skills/kafka.png';
 import carla from '../public/assets/skills/carla.png';
 import unity from '../public/assets/skills/unity.png';
-
+import shopify from '../public/assets/skills/shopify.png';
 // Skill data with proper alt text for SEO
 const skillsData = [
   { image: Html, name: 'HTML', alt: 'HTML5 programming language logo' },
@@ -99,6 +99,7 @@ const skillsData = [
   { image: kafka, name: 'Kafka ML', alt: 'Apache Kafka streaming platform logo' },
   { image: carla, name: 'Carla Simulator', alt: 'CARLA autonomous driving simulator logo' },
   { image: unity, name: 'Unity Hub', alt: 'Unity game development engine logo' },
+  { image: shopify, name: 'Shopify', alt: 'Shopify e-commerce platform logo' },
 ];
 
 const SkillItem = ({ skill, index }) => (

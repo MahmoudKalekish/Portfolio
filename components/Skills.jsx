@@ -48,6 +48,7 @@ import telegraf from '../public/assets/skills/telegraf.png';
 import kafka from '../public/assets/skills/kafka.png';
 import carla from '../public/assets/skills/carla.png';
 import unity from '../public/assets/skills/unity.png';
+import shopify from '../public/assets/skills/shopify.png';
 
 const Skills = () => {
   return (
@@ -536,6 +537,16 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Unity Hub</h3>
+              </div>
+            </div>
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+              <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <Image src={shopify} width='64px' height='64px' alt='/' />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>Shopify</h3>
+                </div>
               </div>
             </div>
           </div>

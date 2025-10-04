@@ -9,6 +9,32 @@ const Recommendations = () => {
   const recommendations = [
     {
       id: 1,
+      name: "Stephanie Badaan",
+      role: "Career Counselor & Employability Skills Trainer",
+      title: "Passionate Career Counselor & Employability Skills Trainer | Empowering Youth to thrive in today's Job Market | Specialized in CV and Cover Letter Writing, Job Interviews, LinkedIn Optimization and Job Search Strategies",
+      relationship: "Mentor",
+      relationshipType: "mentor",
+      date: "October 3, 2025",
+      linkedinUrl: "https://www.linkedin.com/in/stephanie-badaan",
+      avatar: "/assets/recommendations/stephanie-badaan.jpg",
+      recommendation: "I had the pleasure of coaching Mahmoud, and I was impressed by his commitment to personal and professional growth. He took all my recommendations into consideration and applied them thoughtfully. Mahmoud is committed to continuous learning. He is proactive, adaptable, and eager to take on new challenges. His positive attitude and willingness to invest in his personal and professional development make him a strong candidate for any opportunity. I highly recommend Mahmoud as I am certain he will bring the same level of dedication, adaptability, and growth-oriented mindset to your organization.",
+      highlights: ["Personal Growth", "Professional Development", "Continuous Learning", "Adaptability", "Proactive Mindset"]
+    },
+    {
+      id: 2,
+      name: "Ali Nehme",
+      role: "Senior Full Stack Developer",
+      title: "Senior Full Stack Developer | Flutter & Angular Specialist | Java Spring Boot Expert | Crafting Scalable Web & Mobile Solutions",
+      relationship: "Team Member",
+      relationshipType: "colleague",
+      date: "October 2, 2025",
+      linkedinUrl: "https://www.linkedin.com/in/ali-nehme",
+      avatar: "/assets/recommendations/ali-nehme.jpg",
+      recommendation: "I've had the pleasure of working with Mahmoud, a talented Full Stack Developer who never stops learning and improving. His commitment to growth is inspiring — always eager to expand his knowledge and refine his skills. What truly sets Mahmoud apart is not just his technical expertise, but his remarkable social skills. He's approachable, always available for a discussion, and has a gift for making every interaction enjoyable and productive. His passion for communication and networking brings positive energy to any team or setting. Mahmoud's dedication to his work is outstanding, and his ability to combine technical excellence with strong interpersonal skills makes him an invaluable colleague. I highly recommend him for any team that values both expertise and a collaborative spirit.",
+      highlights: ["Full Stack Development", "Continuous Learning", "Social Skills", "Communication Excellence", "Team Collaboration"]
+    },
+    {
+      id: 3,
       name: "Ali Chbib",
       role: "Full Stack MERN Developer @ Areeba",
       title: "React.js, Node.js, MongoDB, React Native | Delivering Scalable Web & Mobile Applications",
@@ -21,7 +47,7 @@ const Recommendations = () => {
       highlights: ["Full Stack Engineering", "Angular & React Expertise", "Commitment to Learning", "Weekend Dedication", "Innovation"]
     },
     {
-      id: 2,
+      id: 4,
       name: "Dr. Mariam Kalakech",
       role: "Associate Professor at Lebanese University",
       title: "Associate Professor at Lebanese University",
@@ -34,7 +60,7 @@ const Recommendations = () => {
       highlights: ["Master's Thesis Supervision", "AI Research Excellence", "Data Mining Expertise", "Research Methodologies", "Academic Leadership"]
     },
     {
-      id: 3,
+      id: 5,
       name: "Dr. Mirna Atieh",
       role: "Assistant Professor in Computer Sciences & Artificial Intelligence",
       title: "Assistant Professor in Computer Sciences & Artificial Intelligence at the Lebanese University",
@@ -47,7 +73,7 @@ const Recommendations = () => {
       highlights: ["Master's Thesis: AI SaaS Platform", "Website Development Mastery", "Research Potential", "Independent & Team Work", "PhD Recommendation"]
     },
     {
-      id: 4,
+      id: 6,
       name: "Dr. Ali El Moussaoui",
       role: "Ph.D. in Computer Science, Associate Professor",
       title: "Associate Professor of Computer Science at Lebanese University, Co-founder iVision Solutions Inc",
@@ -60,7 +86,7 @@ const Recommendations = () => {
       highlights: ["MIS Leadership Potential", "Exceptional Intelligence", "Programming Excellence", "Problem Solving", "Communication Skills"]
     },
     {
-      id: 5,
+      id: 7,
       name: "Ali Kalakech",
       role: "Data Scientist",
       title: "Data Scientist",
@@ -73,7 +99,7 @@ const Recommendations = () => {
       highlights: ["Algorithm Mastery", "Database Systems", "Cutting-edge Technology", "Academic Excellence", "Innovation Focus"]
     },
     {
-      id: 6,
+      id: 8,
       name: "Nour Maher Taha",
       role: "Backend Engineer @ BEANZ",
       title: "BTech, Information Technology",
@@ -86,7 +112,7 @@ const Recommendations = () => {
       highlights: ["ReactJS Expertise", "Problem-Solving Skills", "Continuous Improvement", "Web Development Passion", "Collaboration Excellence"]
     },
     {
-      id: 7,
+      id: 9,
       name: "Zeinab Kassem",
       role: "MERN Stack | LAMP Stack | MENTOR",
       title: "MERN Stack | LAMP Stack | MENTOR",
@@ -99,7 +125,7 @@ const Recommendations = () => {
       highlights: ["Challenge Overcomer", "Self-Motivated", "Project Management", "Team Leadership", "Creative Problem Solving"]
     },
     {
-      id: 8,
+      id: 10,
       name: "Hadil Deeb",
       role: "Fulbright Scholar | Program Coordinator",
       title: "MA in Social Sciences and Comparative Education | Humanitarian",
@@ -152,15 +178,27 @@ const Recommendations = () => {
       <div className='w-full overflow-x-hidden'>
         {/* Header Section */}
         <div className='w-screen h-[50vh] relative'>
-          <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-          <Image
-            className='absolute z-1'
-            layout='fill'
-            objectFit='cover'
-            src='/assets/projects/recommendations-bg.jpg'
-            alt='Professional Recommendations Background'
-            priority
-          />
+          {/* Mobile: Enhanced Gradient Background */}
+          <div className='absolute top-0 left-0 w-full h-[50vh] bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 md:hidden z-1'>
+            {/* Animated circles for visual interest */}
+            <div className='absolute top-10 right-10 w-32 h-32 bg-blue-400 rounded-full opacity-20 blur-3xl animate-pulse'></div>
+            <div className='absolute bottom-20 left-10 w-40 h-40 bg-indigo-400 rounded-full opacity-20 blur-3xl animate-pulse' style={{animationDelay: '1s'}}></div>
+            <div className='absolute top-1/2 left-1/2 w-36 h-36 bg-purple-400 rounded-full opacity-10 blur-3xl animate-pulse' style={{animationDelay: '2s'}}></div>
+          </div>
+          
+          {/* Desktop: Banner Image with Overlay */}
+          <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10 hidden md:block' />
+          <div className='hidden md:block absolute top-0 left-0 w-full h-[50vh] z-1'>
+            <Image
+              layout='fill'
+              objectFit='cover'
+              objectPosition='center'
+              src='/assets/MahmoudKalekish-banner.png'
+              alt='Professional Recommendations Background'
+              priority
+            />
+          </div>
+          
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h1 className='py-2'>Professional Recommendations</h1>
             <h2 className='text-2xl'>Testimonials from Colleagues, Professors & Mentors</h2>
@@ -255,12 +293,12 @@ const Recommendations = () => {
                 <p className='text-gray-700 font-medium'>Academic Supervisors</p>
               </div>
               <div>
-                <h3 className='text-3xl font-bold text-purple-600 mb-2'>3</h3>
+                <h3 className='text-3xl font-bold text-purple-600 mb-2'>4</h3>
                 <p className='text-gray-700 font-medium'>Industry Mentors</p>
               </div>
               <div>
-                <h3 className='text-3xl font-bold text-orange-600 mb-2'>2</h3>
-                <p className='text-gray-700 font-medium'>Direct Supervisors</p>
+                <h3 className='text-3xl font-bold text-orange-600 mb-2'>3</h3>
+                <p className='text-gray-700 font-medium'>Colleagues</p>
               </div>
             </div>
           </div>
@@ -269,9 +307,18 @@ const Recommendations = () => {
         {/* Back to Portfolio */}
         <div className='flex justify-center pb-12'>
           <Link href='/'>
-            <p className='underline cursor-pointer text-blue-600 hover:text-blue-800 transition-colors duration-300'>
+            <button className='group relative inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300'>
+              <svg 
+                className='w-5 h-5 transform group-hover:-translate-x-1 transition-transform duration-300' 
+                fill='none' 
+                stroke='currentColor' 
+                viewBox='0 0 24 24'
+              >
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M10 19l-7-7m0 0l7-7m-7 7h18' />
+              </svg>
               Back to Portfolio
-            </p>
+              <span className='absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300'></span>
+            </button>
           </Link>
         </div>
       </div>
