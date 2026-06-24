@@ -49,6 +49,12 @@ import kafka from '../public/assets/skills/kafka.png';
 import carla from '../public/assets/skills/carla.png';
 import unity from '../public/assets/skills/unity.png';
 import shopify from '../public/assets/skills/shopify.png';
+import nestjs from '../public/assets/skills/nestjs.png';
+import prisma from '../public/assets/skills/prisma.png';
+import postgresql from '../public/assets/skills/postgresql.png';
+import zod from '../public/assets/skills/zod.png';
+import zustand from '../public/assets/skills/zustand.png';
+import opentofu from '../public/assets/skills/opentofu.png';
 
 const Skills = () => {
   return (
@@ -539,14 +545,74 @@ const Skills = () => {
                 <h3>Unity Hub</h3>
               </div>
             </div>
-            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-              <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                <div className='m-auto'>
-                  <Image src={shopify} width='64px' height='64px' alt='/' />
-                </div>
-                <div className='flex flex-col items-center justify-center'>
-                  <h3>Shopify</h3>
-                </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={shopify} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Shopify</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={nestjs} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>NestJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={prisma} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Prisma</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={postgresql} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={zod} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Zod</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={zustand} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Zustand</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={opentofu} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>OpenTofu</h3>
               </div>
             </div>
           </div>

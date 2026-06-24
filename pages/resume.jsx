@@ -1,17 +1,17 @@
 import React from 'react';
-import Head from 'next/head';
 import { FaGithub, FaLinkedinIn, FaPhone, FaEnvelope } from 'react-icons/fa';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 
 const resume = () => {
   return (
     <>
-      <Head>
-        <title>Mahmoud Kalekish | Resume | Full-Stack Software Engineer</title>
-        <meta name="description" content="Resume of Mahmoud Kalekish – Full-Stack Software Engineer specializing in scalable web & mobile development, cloud deployments, and modern DevOps tools." />
-
-        <link rel='icon' href='/fav.png' />
-      </Head>
+      <SEO
+        title="Mahmoud Kalekish | Resume | Full-Stack Software Engineer"
+        description="Resume of Mahmoud Kalekish – Full-Stack Software Engineer with 3+ years building scalable web & mobile apps with Angular, Spring Boot, React, NestJS, and modern DevOps (Docker, Kubernetes, CI/CD)."
+        canonical="https://mahmoud-kalekish.vercel.app/resume"
+        keywords="Mahmoud Kalekish resume, Full Stack Software Engineer CV, Angular, Spring Boot, NestJS, React, Flutter, DevOps, Docker, Kubernetes, PostgreSQL, Prisma"
+      />
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
@@ -129,10 +129,10 @@ const resume = () => {
           </p> */}
 
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2 px-4'><span className='font-bold'>Frontend:</span> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux</p>
-          <p className='py-2 px-4'><span className='font-bold'>Backend:</span> Node.js, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL</p>
-          <p className='py-2 px-4'><span className='font-bold'>Databases:</span> MongoDB, MySQL, PostgreSQL, PL/SQL, Firestore, Redis</p>
-          <p className='py-2 px-4'><span className='font-bold'>DevOps & Tools:</span> Docker, Kubernetes, Helm, Grafana, GitHub, GitLab, Bitbucket, Postman, CI/CD, Nginx, AWS, Hostinger, Jira</p>
+          <p className='py-2 px-4'><span className='font-bold'>Frontend:</span> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Angular, Next.js, Material UI, Bootstrap, Redux, Zustand, Zod</p>
+          <p className='py-2 px-4'><span className='font-bold'>Backend:</span> Node.js, NestJS, Express.js, Laravel, PHP, Java, Spring Boot, .NET, Firebase, REST APIs, GraphQL</p>
+          <p className='py-2 px-4'><span className='font-bold'>Databases:</span> PostgreSQL, MongoDB, MySQL, PL/SQL, Prisma, Firestore, Redis</p>
+          <p className='py-2 px-4'><span className='font-bold'>DevOps & Tools:</span> Docker, Docker Compose, Kubernetes, Helm, OpenTofu (IaC), GitHub Actions (CI/CD), Grafana, GitHub, GitLab, Bitbucket, Postman, Nginx, AWS, Hostinger, Jira</p>
           <p className='py-2 px-4'><span className='font-bold'>Mobile Development:</span> Flutter, React Native, Android Studio (Java)</p>
           <p className='py-2 px-4'><span className='font-bold'>CMS & Design:</span> WordPress, Figma, StrapiJS, Shopify</p>
           <p className='py-2 px-4'><span className='font-bold'>Programming Languages:</span> Java, C++, C#, PHP, Python</p>
@@ -142,7 +142,44 @@ const resume = () => {
         <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
-        {/* Experience */}
+        {/* Sword Group Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              Sword Group
+            </span>
+            <span className='px-2'>|</span>Beirut, Lebanon
+          </p>
+          <p className='py-1 italic'> Full-Stack Software Engineer <span className='px-2'>|</span>January 2026 - Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Developing and maintaining enterprise-grade web applications using Spring Boot and modern Angular, improving feature delivery speed by ~20%.</li>
+            <li>Contributing to EV2PS (Vessel Systems & Maritime Operations Platform) by building scalable, secure backend services handling complex operational workflows.</li>
+            <li>Designing and implementing RESTful APIs, reducing frontend-backend integration issues by ~30%.</li>
+            <li>Optimizing PostgreSQL queries and database models, improving response time of critical endpoints by ~25%.</li>
+            <li>Enhancing system stability through refactoring and architectural improvements, reducing production bugs by ~15%.</li>
+            <li>Actively participating in Agile ceremonies, sprint planning, and peer code reviews to ensure high-quality, maintainable code.</li>
+          </ul>
+        </div>
+
+        {/* IN2 Part-Time Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              IN2
+            </span>
+            <span className='px-2'>|</span>Beirut, Lebanon (Part-Time / Contract)
+          </p>
+          <p className='py-1 italic'> Full-Stack Engineer <span className='px-2'>|</span>January 2026 - July 2026</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Maintaining and enhancing Angular & Spring Boot modules, improving overall system reliability by ~20%.</li>
+            <li>Fixing production issues and implementing new features, reducing recurring support tickets by ~30%.</li>
+            <li>Optimizing backend performance and database queries, improving API efficiency by ~15%.</li>
+            <li>Providing technical guidance and mentoring to junior developers, assisting with code reviews and best practices adoption.</li>
+            <li>Supporting knowledge transfer and documentation improvements to ensure smoother onboarding and maintainability.</li>
+          </ul>
+        </div>
+
+        {/* IN2 Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -150,7 +187,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Beirut, Lebanon
           </p>
-          <p className='py-1 italic'> Full-Stack Engineer <span className='px-2'>|</span>October 2023 - Present</p>
+          <p className='py-1 italic'> Full-Stack Engineer <span className='px-2'>|</span>October 2023 - December 2025</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>Architecting and delivering end-to-end solutions using Angular (frontend) and Spring Boot (backend).</li>
             <li>Integrated ZKTeco BioTime, BioTimeCloud, BioSecurity & BioAccess, boosting access control and time-tracking efficiency by ~30%, reducing manual interventions.</li>
@@ -219,6 +256,35 @@ const resume = () => {
         </div>
 
 
+        {/* Continuous Learning Section */}
+        <h5 className='text-center underline text-[18px] py-4'>
+          Continuous Learning & Professional Development
+        </h5>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              Elite Software Engineering Bootcamp
+            </span>
+            <span className='px-2'>|</span>OnRamp Academy & Forward MENA
+          </p>
+          <p className='py-1 italic'>Dec 2025 – Mar 2026</p>
+          <p className='py-2'>
+            12-week advanced engineering program simulating an international tech agency environment, focused on modern full-stack architecture, DevOps, AI tools, and Agile delivery.
+          </p>
+          <p className='py-1 font-bold'>Capstone Contribution – Talent Pool Module (HR Platform)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Built an interview scheduling system with calendar integration.</li>
+            <li>Implemented candidate pipeline tracking (Interviewed, Offer Sent, Hired, etc.).</li>
+            <li>Developed feedback scoring and reusable question templates.</li>
+            <li>Designed a candidate database with tagging and communication history.</li>
+            <li>Added automated reminders and follow-ups.</li>
+          </ul>
+          <p className='py-2 px-1'>
+            <span className='font-bold'>Technologies:</span> NestJS, Next.js, Prisma, PostgreSQL, Docker Compose, Zod, Zustand, GitHub Actions (CI/CD), OpenTofu (IaC).
+          </p>
+        </div>
+
         {/* Education Section */}
         <h5 className='text-center underline text-[18px] py-4'>
           Education
@@ -254,6 +320,21 @@ const resume = () => {
             <span className='px-2'>|</span>Lebanese University
           </p>
           <p className='py-1 italic'>Beirut, Lebanon <span className='px-2'>|</span>2019 - 2022</p>
+        </div>
+
+        {/* Publications Section */}
+        <h5 className='text-center underline text-[18px] py-4'>
+          Publications
+        </h5>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Generative Artificial Intelligence for Underground Utility Digital Twins: A Review and Task-Oriented Framework</span>
+          </p>
+          <p className='py-1 italic'>Research Paper <span className='px-2'>|</span>2026</p>
+          <p className='py-2'>
+            First-author research paper from ongoing PhD work, presenting a review and a task-oriented framework for applying generative AI to underground utility digital twins.
+          </p>
         </div>
 
         {/* Languages */}

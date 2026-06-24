@@ -8,6 +8,61 @@ import SEO from '../components/SEO';
 const Certifications = () => {
   const certifications = [
     {
+      id: -3,
+      title: "Introduction to Model Context Protocol",
+      organization: "Anthropic",
+      organizationLogo: "/assets/skills/anthropic.png",
+      issueDate: "May 2026",
+      credentialId: "ohp4u6kdqwyx",
+      credentialUrl: "",
+      skills: ["Model Context Protocol", "MCP", "AI Agents", "LLM Integration"],
+      description: "Fundamentals of the Model Context Protocol (MCP) for connecting AI models to external tools, data sources, and context providers."
+    },
+    {
+      id: -2,
+      title: "Introduction to Subagents",
+      organization: "Anthropic",
+      organizationLogo: "/assets/skills/anthropic.png",
+      issueDate: "Apr 2026",
+      credentialId: "9cq7i7h3suab",
+      credentialUrl: "",
+      skills: ["AI Agents", "Subagents", "Agent Orchestration", "Claude"],
+      description: "Designing and orchestrating subagents to delegate and parallelize complex, multi-step AI workflows."
+    },
+    {
+      id: -1,
+      title: "Introduction to Agent Skills",
+      organization: "Anthropic",
+      organizationLogo: "/assets/skills/anthropic.png",
+      issueDate: "Apr 2026",
+      credentialId: "nmqvyiyowwqv",
+      credentialUrl: "",
+      skills: ["AI Agents", "Agent Skills", "Claude", "Automation"],
+      description: "Building and applying agent skills to extend AI agents with reusable, task-specific capabilities."
+    },
+    {
+      id: 0,
+      title: "Elite Software Engineering Bootcamp",
+      organization: "OnRamp Academy & Forward MENA",
+      organizationLogo: "/assets/skills/onramp.png",
+      issueDate: "Mar 2026",
+      credentialId: "",
+      credentialUrl: "",
+      skills: ["NestJS", "Next.js", "Prisma", "PostgreSQL", "Docker Compose", "Zod", "Zustand", "GitHub Actions (CI/CD)", "OpenTofu (IaC)"],
+      description: "12-week advanced engineering program simulating an international tech agency environment, focused on modern full-stack architecture, DevOps, AI tools, and Agile delivery. Capstone: built a Talent Pool HR module with interview scheduling, candidate pipeline tracking, feedback scoring, and automated follow-ups."
+    },
+    {
+      id: 20,
+      title: "AWS Certified Cloud Practitioner",
+      organization: "Amazon Web Services",
+      organizationLogo: "/assets/skills/aws.png",
+      issueDate: "2025",
+      credentialId: "",
+      credentialUrl: "",
+      skills: ["AWS", "Cloud Computing", "Cloud Architecture", "Cloud Security"],
+      description: "Foundational understanding of AWS Cloud concepts, core services, security, architecture, pricing, and support."
+    },
+    {
       id: 1,
       title: "Google Cloud Fundamentals: Core Infrastructure",
       organization: "Google",
@@ -357,17 +412,19 @@ const Certifications = () => {
                   </div>
                   
                   {/* View Credential Button - stays at bottom */}
-                  <div className='text-center mt-auto'>
-                    <a
-                      href={cert.credentialUrl}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105'
-                    >
-                      <FaExternalLinkAlt className='mr-2' />
-                      View Credential
-                    </a>
-                  </div>
+                  {cert.credentialUrl && (
+                    <div className='text-center mt-auto'>
+                      <a
+                        href={cert.credentialUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105'
+                      >
+                        <FaExternalLinkAlt className='mr-2' />
+                        View Credential
+                      </a>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

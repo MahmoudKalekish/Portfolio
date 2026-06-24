@@ -49,6 +49,12 @@ import kafka from '../public/assets/skills/kafka.png';
 import carla from '../public/assets/skills/carla.png';
 import unity from '../public/assets/skills/unity.png';
 import shopify from '../public/assets/skills/shopify.png';
+import nestjs from '../public/assets/skills/nestjs.png';
+import prisma from '../public/assets/skills/prisma.png';
+import postgresql from '../public/assets/skills/postgresql.png';
+import zod from '../public/assets/skills/zod.png';
+import zustand from '../public/assets/skills/zustand.png';
+import opentofu from '../public/assets/skills/opentofu.png';
 // Skill data with proper alt text for SEO
 const skillsData = [
   { image: Html, name: 'HTML', alt: 'HTML5 programming language logo' },
@@ -100,6 +106,12 @@ const skillsData = [
   { image: carla, name: 'Carla Simulator', alt: 'CARLA autonomous driving simulator logo' },
   { image: unity, name: 'Unity Hub', alt: 'Unity game development engine logo' },
   { image: shopify, name: 'Shopify', alt: 'Shopify e-commerce platform logo' },
+  { image: nestjs, name: 'NestJS', alt: 'NestJS Node.js framework logo' },
+  { image: prisma, name: 'Prisma', alt: 'Prisma ORM logo' },
+  { image: postgresql, name: 'PostgreSQL', alt: 'PostgreSQL relational database logo' },
+  { image: zod, name: 'Zod', alt: 'Zod TypeScript schema validation logo' },
+  { image: zustand, name: 'Zustand', alt: 'Zustand React state management logo' },
+  { image: opentofu, name: 'OpenTofu', alt: 'OpenTofu infrastructure as code logo' },
 ];
 
 const SkillItem = ({ skill, index }) => (

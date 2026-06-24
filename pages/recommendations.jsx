@@ -8,6 +8,45 @@ import SEO from '../components/SEO';
 const Recommendations = () => {
   const recommendations = [
     {
+      id: 13,
+      name: "Jamal Haidar Ahmad",
+      role: "CTO & Co-Founder at IN2",
+      title: "CTO & Co-Founder at IN2",
+      relationship: "Direct Manager",
+      relationshipType: "manager",
+      date: "January 11, 2026",
+      linkedinUrl: "https://www.linkedin.com/in/jamal-haidar-ahmad",
+      avatar: "/assets/recommendations/jamal-haidar-ahmad.jpg",
+      recommendation: "Mahmoud Kalekish is a committed and hardworking professional who approaches his responsibilities with seriousness and respect for deadlines. During the time we worked together, Mahmoud showed a strong willingness to learn, collaborate, and contribute to the team's goals. He is receptive to feedback, works well in a team environment, and consistently puts effort into improving his skills and delivering value. I appreciate his dedication and wish him continued growth and success in his career.",
+      highlights: ["Commitment & Reliability", "Respect for Deadlines", "Receptive to Feedback", "Team Collaboration", "Continuous Improvement"]
+    },
+    {
+      id: 12,
+      name: "Mike Majdalani",
+      role: "Full Stack Entrepreneur | 120K+ MENA Tech Community | Tech Content Creator",
+      title: "Full Stack Entrepreneur | 120K+ MENA Tech Community | Tech Content Creator",
+      relationship: "Mentor",
+      relationshipType: "mentor",
+      date: "January 2, 2026",
+      linkedinUrl: "https://www.linkedin.com/in/mike-majdalani",
+      avatar: "/assets/recommendations/mike-majdalani.jpg",
+      recommendation: "Mahmoud attended a web3 masterclass workshop that I've given. His final project was outstanding, he understood everything that was given about blockchain technology and came up with a functional proof of concept that he demoed to me. I recommend Mahmoud for anyone who is interested in working with him.",
+      highlights: ["Web3 & Blockchain", "Outstanding Final Project", "Proof of Concept Delivery", "Fast Learner", "Technical Demo"]
+    },
+    {
+      id: 11,
+      name: "Abed El Chmaytilli",
+      role: "Engineering Manager | Mobile Platforms (Android)",
+      title: "Engineering Manager | Mobile Platforms (Android) | Agile Leadership | Scalable Systems & Integrations",
+      relationship: "Direct Manager",
+      relationshipType: "manager",
+      date: "November 10, 2025",
+      linkedinUrl: "https://www.linkedin.com/in/abed-el-chmaytilli",
+      avatar: "/assets/recommendations/abed-el-chmaytilli.jpg",
+      recommendation: "Mahmoud has become a key contributor on our engineering team, leading the full integration of ZKTeco biometric systems (BioTime, BioTimeCloud, BioSecurity, and BioAccess), which improved time-tracking efficiency by ~30% and reduced manual work. Mahmoud holds deep domain knowledge in gym facilities and class scheduling. Our customer support team often turns to him when clients have questions about setup, behavior, or best practices, particularly around configuring class schedules or managing access to facilities. He's highly coachable, quick to act on feedback and often implements improvements by the very next sprint, whether in code structure, API design, or documentation quality. He's someone I genuinely enjoy working with, and I'm excited to see how he continues to grow and lead within the team.",
+      highlights: ["ZKTeco Biometric Integration", "Domain Expertise", "Highly Coachable", "API & Code Quality", "Team Leadership"]
+    },
+    {
       id: 1,
       name: "Stephanie Badaan",
       role: "Career Counselor & Employability Skills Trainer",
@@ -289,15 +328,15 @@ const Recommendations = () => {
                 <p className='text-gray-700 font-medium'>Professional Recommendations</p>
               </div>
               <div>
-                <h3 className='text-3xl font-bold text-green-600 mb-2'>4</h3>
+                <h3 className='text-3xl font-bold text-green-600 mb-2'>3</h3>
                 <p className='text-gray-700 font-medium'>Academic Supervisors</p>
               </div>
               <div>
-                <h3 className='text-3xl font-bold text-purple-600 mb-2'>4</h3>
-                <p className='text-gray-700 font-medium'>Industry Mentors</p>
+                <h3 className='text-3xl font-bold text-purple-600 mb-2'>8</h3>
+                <p className='text-gray-700 font-medium'>Managers & Mentors</p>
               </div>
               <div>
-                <h3 className='text-3xl font-bold text-orange-600 mb-2'>3</h3>
+                <h3 className='text-3xl font-bold text-orange-600 mb-2'>2</h3>
                 <p className='text-gray-700 font-medium'>Colleagues</p>
               </div>
             </div>
