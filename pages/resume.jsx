@@ -294,11 +294,11 @@ const resume = () => {
 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>PhD in Generative AI and Digital Twins (Ongoing)</span>
+            <span className='font-bold'>PhD in Generative AI and Digital Twins</span>
             <span className='px-2'>|</span>Université de Liège (ULiège)
           </p>
           <p className='py-1 italic'>
-            Liège, Belgium <span className='px-2'>|</span> 2025 – Present (Expected 2028)
+            Liège, Belgium <span className='px-2'>|</span> 2026 – Present
           </p>
           <p className='py-2'>
             Conducting advanced research in Generative AI and Digital Twin simulations, bridging academic innovation with practical applications for intelligent systems.
