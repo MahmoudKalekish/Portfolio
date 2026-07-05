@@ -4,53 +4,25 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  // const [navBg, setNavBg] = useState('#ecf0f3');
-  // const [navBg, setNavBg] = useState('#C4DFDF');
-  const [navBg, setNavBg] = useState('white');
-  const [linkColor, setLinkColor] = useState('#1f2937');
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
+  const [navBg] = useState('white');
+  const [linkColor] = useState('#1f2937');
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-
-
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
+      setShadow(window.scrollY >= 90);
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener('scroll', handleShadow, { passive: true });
+    return () => window.removeEventListener('scroll', handleShadow);
   }, []);
-
-
-
 
   return (
     <div
@@ -110,30 +82,34 @@ alt='Mahmoud Kalekish Logo'
             </li>
           </ul>
           {/* Hamburger Icon */}
-          <div
+          <button
+            type='button'
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='xl:hidden cursor-pointer'
+            className='xl:hidden cursor-pointer !bg-none !shadow-none bg-transparent p-2'
+            aria-label='Open navigation menu'
+            aria-expanded={nav}
           >
-            <AiOutlineMenu size={25} />
-          </div>
+            <AiOutlineMenu size={25} className='text-gray-800' />
+          </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {/* Overlay */}
       <div
+        onClick={() => setNav(false)}
         className={
           nav ? 'xl:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
+          onClick={(e) => e.stopPropagation()}
           className={
             nav
-              // ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[white] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500 '
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in-out duration-500 overflow-y-auto'
+              : 'fixed left-[-100%] top-0 p-10 ease-in-out duration-500 '
           }
         >
           <div>
@@ -149,12 +125,14 @@ alt='Mahmoud Kalekish Logo'
                 />
                 {/* </a> */}
               </Link>
-              <div
+              <button
+                type='button'
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3  cursor-pointer  '
+                aria-label='Close navigation menu'
+                className='rounded-full !bg-none !bg-white text-gray-800 shadow-lg shadow-gray-400 p-3 cursor-pointer'
               >
                 <AiOutlineClose />
-              </div>
+              </button>
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>

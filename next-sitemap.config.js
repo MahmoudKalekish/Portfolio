@@ -4,7 +4,23 @@ module.exports = {
   generateRobotsTxt: true,
   changefreq: 'weekly',
   priority: 0.7,
-  exclude: ['/api/*'],
+  exclude: [
+    '/api/*',
+    // Client/practice project pages are noindexed — keep them out of the sitemap
+    '/avon',
+    '/enigma',
+    '/jonco',
+    '/need',
+    '/dashboard',
+    '/nour',
+    '/nolimits',
+    '/lights-out',
+    '/youtube',
+    '/portfolio',
+    '/netflix',
+    '/quest-it',
+    '/treat-you-better',
+  ],
   robotsTxtOptions: {
     policies: [
       {

@@ -10,7 +10,7 @@ import ContactImg from '../public/assets/contact.jpg';
 const Contact = () => {
   return (
     <div id='contact' className='w-full'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+      <div data-reveal className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
@@ -27,10 +27,10 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Mahmoud Kalekish</h2>
-                <p>~Full Stack Engineer</p>
+                <p>Full-Stack Software Engineer &amp; PhD Researcher in Generative AI</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  Open to full-time and part-time opportunities, freelance projects,
+                  and research collaborations. Contact me and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -85,50 +85,55 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Name</label>
+                    <label htmlFor='contact-name' className='uppercase text-sm py-2'>Name</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
+                      id='contact-name'
                       name='name'
                       required
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
+                    <label htmlFor='contact-phone' className='uppercase text-sm py-2'>
                       Phone Number
                     </label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
+                      id='contact-phone'
                       name='phone'
                       required
                     />
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Email</label>
+                  <label htmlFor='contact-email' className='uppercase text-sm py-2'>Email</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
-                    name='email'
+                    id='contact-email'
+                      name='email'
                     required
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
+                  <label htmlFor='contact-subject' className='uppercase text-sm py-2'>Subject</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
-                    name='subject'
+                    id='contact-subject'
+                      name='subject'
 
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
+                  <label htmlFor='contact-message' className='uppercase text-sm py-2'>Message</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
-                    name='message'
+                    id='contact-message'
+                      name='message'
                     required
                   ></textarea>
                 </div>

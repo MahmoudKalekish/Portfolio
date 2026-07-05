@@ -1,10 +1,10 @@
 import Head from 'next/head';
 
 const SEO = ({
-  title = "Mahmoud Kalekish | Full-Stack Software Engineer | Web & Mobile Developer",
-  description = "I'm Mahmoud Kalekish, Co-founder of Merix and a Full-Stack Software Engineer specializing in building scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps tools like Docker and Kubernetes.",
+  title = "Mahmoud Kalekish | Full-Stack Software Engineer & PhD Researcher in Generative AI",
+  description = "I'm Mahmoud Kalekish, Co-founder of Merix, Full-Stack Software Engineer with 4+ years of experience, and PhD Researcher in Generative AI and Digital Twins. I build scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps tools like Docker and Kubernetes.",
   canonical = "https://mahmoud-kalekish.vercel.app",
-  ogImage = "https://mahmoud-kalekish.vercel.app/assets/navLogo.png",
+  ogImage = "https://mahmoud-kalekish.vercel.app/assets/MahmoudKalekish-banner.png",
   ogType = "website",
   structuredData = null,
   noindex = false,
@@ -21,7 +21,7 @@ const SEO = ({
       "https://github.com/MahmoudKalekish",
       "https://merixlb.com"
     ],
-    "jobTitle": "Co-founder & Full-Stack Software Engineer",
+    "jobTitle": "Full-Stack Software Engineer, Co-founder of Merix & PhD Researcher in Generative AI",
     "worksFor": {
       "@type": "Organization",
       "name": "Merix",
@@ -33,6 +33,8 @@ const SEO = ({
     },
     "knowsAbout": [
       "Full-Stack Development",
+      "Generative AI",
+      "Digital Twins",
       "Angular",
       "Spring Boot",
       "React",

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Head from 'next/head';
 import nolimitsImg from '../public/assets/projects/nolimitss.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -7,12 +8,17 @@ import Link from 'next/link';
 const Nolimits = () => {
     return (
         <div className='w-full overflow-hidden'>
+      <Head>
+        <title>No Limits – Fitness App | Mahmoud Kalekish</title>
+        <meta name='description' content='No Limits – Fitness App – a project by Mahmoud Kalekish, Full-Stack Software Engineer.' />
+        <meta name='robots' content='noindex, follow' />
+      </Head>
             <div className='w-screen h-[50vh] relative overflow-hidden'>
                 <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10 overflow-hidden' />
                 <Image
                     className='absolute z-1'
-                    layout='fill'
-                    objectFit='cover'
+                    fill
+                    style={{ objectFit: 'cover' }}
                     src={nolimitsImg}
                     alt='No Limits project banner'
                 />

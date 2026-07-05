@@ -8,7 +8,7 @@ const resume = () => {
     <>
       <SEO
         title="Mahmoud Kalekish | Resume | Full-Stack Software Engineer"
-        description="Resume of Mahmoud Kalekish – Full-Stack Software Engineer with 3+ years building scalable web & mobile apps with Angular, Spring Boot, React, NestJS, and modern DevOps (Docker, Kubernetes, CI/CD)."
+        description="Resume of Mahmoud Kalekish – Full-Stack Software Engineer with 4+ years of experience and PhD Researcher in Generative AI & Digital Twins, building scalable web & mobile apps with Angular, Spring Boot, React, NestJS, and modern DevOps (Docker, Kubernetes, CI/CD)."
         canonical="https://mahmoud-kalekish.vercel.app/resume"
         keywords="Mahmoud Kalekish resume, Full Stack Software Engineer CV, Angular, Spring Boot, NestJS, React, Flutter, DevOps, Docker, Kubernetes, PostgreSQL, Prisma"
       />
@@ -60,7 +60,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Full-Stack Software Engineer with 3+ years of experience designing and delivering scalable web and mobile solutions. Skilled in Angular, Spring Boot, MERN, and Flutter, with a growing focus on DevOps (Docker, Kubernetes) and applied AI research through ongoing PhD studies in Generative AI and Digital Twins. Proven ability to work across the full development lifecycle, contribute to digital twin simulations, and deliver high-impact freelance projects for startups and businesses. Eager to leverage technical expertise and research-driven approach to deliver innovative, efficient solutions that align with company goals and drive long-term growth.
+          Full-Stack Software Engineer with 4+ years of experience designing and delivering scalable web and mobile solutions. Skilled in Angular, Spring Boot, MERN, and Flutter, with a growing focus on DevOps (Docker, Kubernetes) and applied AI research through ongoing PhD studies in Generative AI and Digital Twins. Proven ability to work across the full development lifecycle, contribute to digital twin simulations, and deliver high-impact freelance projects for startups and businesses. Open to full-time and part-time opportunities, freelance projects, and research collaborations — eager to leverage technical expertise and a research-driven approach to deliver innovative, efficient solutions that drive long-term growth.
 
         </p>
 
@@ -331,9 +331,9 @@ const resume = () => {
           <p className='italic'>
             <span className='font-bold'>Generative Artificial Intelligence for Underground Utility Digital Twins: A Review and Task-Oriented Framework</span>
           </p>
-          <p className='py-1 italic'>Research Paper <span className='px-2'>|</span>2026</p>
+          <p className='py-1 italic'>Research Paper <span className='px-2'>|</span>Under Review — IEEE Access, 2026</p>
           <p className='py-2'>
-            First-author research paper from ongoing PhD work, presenting a review and a task-oriented framework for applying generative AI to underground utility digital twins.
+            Co-authored survey paper from ongoing PhD research, conducted with researchers from the American University of the Middle East and the University of Liège. The paper reviews how Generative AI (GANs, VAEs, diffusion models, LLMs, and multimodal architectures) can address data incompleteness, geometric uncertainty, and semantic fragmentation in Underground Utility Digital Twins, and proposes a task-oriented framework and closed-loop architecture for generative-enhanced digital twins in smart cities.
           </p>
         </div>
 

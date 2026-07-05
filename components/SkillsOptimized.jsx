@@ -55,98 +55,144 @@ import postgresql from '../public/assets/skills/postgresql.png';
 import zod from '../public/assets/skills/zod.png';
 import zustand from '../public/assets/skills/zustand.png';
 import opentofu from '../public/assets/skills/opentofu.png';
-// Skill data with proper alt text for SEO
-const skillsData = [
-  { image: Html, name: 'HTML', alt: 'HTML5 programming language logo' },
-  { image: Css, name: 'CSS', alt: 'CSS3 styling language logo' },
-  { image: Javascript, name: 'JavaScript', alt: 'JavaScript programming language logo' },
-  { image: ReactImg, name: 'React', alt: 'React JavaScript library logo' },
-  { image: Tailwind, name: 'Tailwind', alt: 'Tailwind CSS framework logo' },
-  { image: Nodejs, name: 'NodeJS', alt: 'Node.js runtime environment logo' },
-  { image: MongoDB, name: 'MongoDB', alt: 'MongoDB NoSQL database logo' },
-  { image: Laravel, name: 'Laravel', alt: 'Laravel PHP framework logo' },
-  { image: Firebase, name: 'Firebase', alt: 'Firebase backend platform logo' },
-  { image: Github, name: 'Github', alt: 'GitHub version control platform logo' },
-  { image: Postman, name: 'Postman', alt: 'Postman API testing tool logo' },
-  { image: Docker, name: 'Docker', alt: 'Docker containerization platform logo' },
-  { image: MUI, name: 'Material UI', alt: 'Material-UI React component library logo' },
-  { image: Redux, name: 'Redux', alt: 'Redux state management library logo' },
-  { image: TS, name: 'TypeScript', alt: 'TypeScript programming language logo' },
-  { image: PHP, name: 'PHP', alt: 'PHP server-side scripting language logo' },
-  { image: MySQL, name: 'MySQL', alt: 'MySQL relational database logo' },
-  { image: c, name: 'C++', alt: 'C++ programming language logo' },
-  { image: csharp, name: 'C#', alt: 'C# programming language logo' },
-  { image: wordpress, name: 'WordPress', alt: 'WordPress content management system logo' },
-  { image: angular, name: 'Angular', alt: 'Angular web framework logo' },
-  { image: java, name: 'Java', alt: 'Java programming language logo' },
-  { image: springboot, name: 'Spring Boot', alt: 'Spring Boot Java framework logo' },
-  { image: net, name: '.Net', alt: '.NET development framework logo' },
-  { image: NextJS, name: 'Next', alt: 'Next.js React framework logo' },
-  { image: android, name: 'Android Studio', alt: 'Android Studio IDE logo' },
-  { image: redis, name: 'Redis', alt: 'Redis in-memory database logo' },
-  { image: kubernetes, name: 'Kubernetes', alt: 'Kubernetes container orchestration logo' },
-  { image: Navicat, name: 'Navicat', alt: 'Navicat database management tool logo' },
-  { image: flutter, name: 'Flutter', alt: 'Flutter mobile development framework logo' },
-  { image: dart, name: 'Dart', alt: 'Dart programming language logo' },
-  { image: ditto, name: 'Eclipse Ditto', alt: 'Eclipse Ditto IoT platform logo' },
-  { image: hono, name: 'Eclipse Hono', alt: 'Eclipse Hono IoT messaging logo' },
-  { image: grafana, name: 'Grafana', alt: 'Grafana monitoring and visualization logo' },
-  { image: influx, name: 'InfluxDB', alt: 'InfluxDB time-series database logo' },
-  { image: helm, name: 'Helm', alt: 'Helm Kubernetes package manager logo' },
-  { image: figma, name: 'Figma', alt: 'Figma design and prototyping tool logo' },
-  { image: junit, name: 'JUnit', alt: 'JUnit testing framework logo' },
-  { image: jwt, name: 'JWT', alt: 'JSON Web Token authentication logo' },
-  { image: nginx, name: 'Nginx', alt: 'Nginx web server logo' },
-  { image: swagger, name: 'Swagger', alt: 'Swagger API documentation tool logo' },
-  { image: hostinger, name: 'Hostinger', alt: 'Hostinger web hosting service logo' },
-  { image: iot, name: 'Internet Of Things', alt: 'Internet of Things technology logo' },
-  { image: mosquitto, name: 'Mosquitto', alt: 'Eclipse Mosquitto MQTT broker logo' },
-  { image: telegraf, name: 'Telegraf', alt: 'Telegraf metrics collection agent logo' },
-  { image: kafka, name: 'Kafka ML', alt: 'Apache Kafka streaming platform logo' },
-  { image: carla, name: 'Carla Simulator', alt: 'CARLA autonomous driving simulator logo' },
-  { image: unity, name: 'Unity Hub', alt: 'Unity game development engine logo' },
-  { image: shopify, name: 'Shopify', alt: 'Shopify e-commerce platform logo' },
-  { image: nestjs, name: 'NestJS', alt: 'NestJS Node.js framework logo' },
-  { image: prisma, name: 'Prisma', alt: 'Prisma ORM logo' },
-  { image: postgresql, name: 'PostgreSQL', alt: 'PostgreSQL relational database logo' },
-  { image: zod, name: 'Zod', alt: 'Zod TypeScript schema validation logo' },
-  { image: zustand, name: 'Zustand', alt: 'Zustand React state management logo' },
-  { image: opentofu, name: 'OpenTofu', alt: 'OpenTofu infrastructure as code logo' },
+// Skills grouped by category, with proper alt text for SEO
+const skillGroups = [
+  {
+    category: 'Frontend',
+    skills: [
+      { image: Html, name: 'HTML', alt: 'HTML5 programming language logo' },
+      { image: Css, name: 'CSS', alt: 'CSS3 styling language logo' },
+      { image: Javascript, name: 'JavaScript', alt: 'JavaScript programming language logo' },
+      { image: TS, name: 'TypeScript', alt: 'TypeScript programming language logo' },
+      { image: ReactImg, name: 'React', alt: 'React JavaScript library logo' },
+      { image: angular, name: 'Angular', alt: 'Angular web framework logo' },
+      { image: NextJS, name: 'Next.js', alt: 'Next.js React framework logo' },
+      { image: Tailwind, name: 'Tailwind', alt: 'Tailwind CSS framework logo' },
+      { image: MUI, name: 'Material UI', alt: 'Material-UI React component library logo' },
+      { image: Redux, name: 'Redux', alt: 'Redux state management library logo' },
+      { image: zustand, name: 'Zustand', alt: 'Zustand React state management logo' },
+      { image: zod, name: 'Zod', alt: 'Zod TypeScript schema validation logo' },
+    ],
+  },
+  {
+    category: 'Backend',
+    skills: [
+      { image: java, name: 'Java', alt: 'Java programming language logo' },
+      { image: springboot, name: 'Spring Boot', alt: 'Spring Boot Java framework logo' },
+      { image: Nodejs, name: 'NodeJS', alt: 'Node.js runtime environment logo' },
+      { image: nestjs, name: 'NestJS', alt: 'NestJS Node.js framework logo' },
+      { image: Laravel, name: 'Laravel', alt: 'Laravel PHP framework logo' },
+      { image: PHP, name: 'PHP', alt: 'PHP server-side scripting language logo' },
+      { image: net, name: '.Net', alt: '.NET development framework logo' },
+      { image: csharp, name: 'C#', alt: 'C# programming language logo' },
+      { image: c, name: 'C++', alt: 'C++ programming language logo' },
+      { image: jwt, name: 'JWT', alt: 'JSON Web Token authentication logo' },
+      { image: swagger, name: 'Swagger', alt: 'Swagger API documentation tool logo' },
+      { image: junit, name: 'JUnit', alt: 'JUnit testing framework logo' },
+    ],
+  },
+  {
+    category: 'Databases & Storage',
+    skills: [
+      { image: postgresql, name: 'PostgreSQL', alt: 'PostgreSQL relational database logo' },
+      { image: MySQL, name: 'MySQL', alt: 'MySQL relational database logo' },
+      { image: MongoDB, name: 'MongoDB', alt: 'MongoDB NoSQL database logo' },
+      { image: redis, name: 'Redis', alt: 'Redis in-memory database logo' },
+      { image: Firebase, name: 'Firebase', alt: 'Firebase backend platform logo' },
+      { image: prisma, name: 'Prisma', alt: 'Prisma ORM logo' },
+      { image: influx, name: 'InfluxDB', alt: 'InfluxDB time-series database logo' },
+      { image: Navicat, name: 'Navicat', alt: 'Navicat database management tool logo' },
+    ],
+  },
+  {
+    category: 'DevOps & Cloud',
+    skills: [
+      { image: Docker, name: 'Docker', alt: 'Docker containerization platform logo' },
+      { image: kubernetes, name: 'Kubernetes', alt: 'Kubernetes container orchestration logo' },
+      { image: helm, name: 'Helm', alt: 'Helm Kubernetes package manager logo' },
+      { image: opentofu, name: 'OpenTofu', alt: 'OpenTofu infrastructure as code logo' },
+      { image: nginx, name: 'Nginx', alt: 'Nginx web server logo' },
+      { image: grafana, name: 'Grafana', alt: 'Grafana monitoring and visualization logo' },
+      { image: Github, name: 'GitHub', alt: 'GitHub version control platform logo' },
+      { image: Postman, name: 'Postman', alt: 'Postman API testing tool logo' },
+      { image: hostinger, name: 'Hostinger', alt: 'Hostinger web hosting service logo' },
+    ],
+  },
+  {
+    category: 'Mobile Development',
+    skills: [
+      { image: flutter, name: 'Flutter', alt: 'Flutter mobile development framework logo' },
+      { image: dart, name: 'Dart', alt: 'Dart programming language logo' },
+      { image: android, name: 'Android Studio', alt: 'Android Studio IDE logo' },
+    ],
+  },
+  {
+    category: 'AI, IoT & Digital Twins',
+    skills: [
+      { image: iot, name: 'Internet Of Things', alt: 'Internet of Things technology logo' },
+      { image: ditto, name: 'Eclipse Ditto', alt: 'Eclipse Ditto IoT platform logo' },
+      { image: hono, name: 'Eclipse Hono', alt: 'Eclipse Hono IoT messaging logo' },
+      { image: mosquitto, name: 'Mosquitto', alt: 'Eclipse Mosquitto MQTT broker logo' },
+      { image: telegraf, name: 'Telegraf', alt: 'Telegraf metrics collection agent logo' },
+      { image: kafka, name: 'Kafka ML', alt: 'Apache Kafka streaming platform logo' },
+      { image: carla, name: 'Carla Simulator', alt: 'CARLA autonomous driving simulator logo' },
+      { image: unity, name: 'Unity Hub', alt: 'Unity game development engine logo' },
+    ],
+  },
+  {
+    category: 'CMS & Design',
+    skills: [
+      { image: wordpress, name: 'WordPress', alt: 'WordPress content management system logo' },
+      { image: shopify, name: 'Shopify', alt: 'Shopify e-commerce platform logo' },
+      { image: figma, name: 'Figma', alt: 'Figma design and prototyping tool logo' },
+    ],
+  },
 ];
 
 const SkillItem = ({ skill, index }) => (
-  <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+  <div className='p-4 sm:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 justify-center items-center'>
       <div className='m-auto'>
-        <Image 
-          src={skill.image} 
-          width={64} 
-          height={64} 
+        <Image
+          src={skill.image}
+          width={64}
+          height={64}
           alt={skill.alt}
           loading={index < 8 ? 'eager' : 'lazy'} // Load first 8 skills eagerly
           quality={85}
         />
       </div>
       <div className='flex flex-col items-center justify-center'>
-        <h3>{skill.name}</h3>
+        <h3 className='text-sm sm:text-base text-center w-full'>{skill.name}</h3>
       </div>
     </div>
   </div>
 );
 
 const Skills = () => {
+  let skillIndex = 0;
   return (
     <section id='skills' className='w-full py-16' aria-labelledby='skills-heading'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+      <div data-reveal className='max-w-[1240px] mx-auto px-2 flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p>
         <h2 id='skills-heading' className='py-4'>What I Can Do</h2>
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-          {skillsData.map((skill, index) => (
-            <SkillItem key={skill.name} skill={skill} index={index} />
-          ))}
-        </div>
+        {skillGroups.map((group) => (
+          <div key={group.category} className='pb-10'>
+            <div className='flex items-center gap-4 py-4'>
+              <h3 className='text-lg sm:text-xl uppercase tracking-wider text-gray-800 whitespace-nowrap'>
+                {group.category}
+              </h3>
+              <div className='flex-grow h-[2px] bg-gradient-to-r from-[#5651e5] to-transparent rounded' />
+            </div>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+              {group.skills.map((skill) => (
+                <SkillItem key={skill.name} skill={skill} index={skillIndex++} />
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -21,7 +21,7 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <div id='projects' className='w-full py-16'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+      <div data-reveal className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
@@ -95,13 +95,6 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Youtube Clone'
-            backgroundImg={youtubeImg}
-            projectUrl='/youtube'
-            tech='React JS'
-
-          />
-          <ProjectItem
             title='Enigma'
             backgroundImg={enigmaImg}
             projectUrl='/enigma'
@@ -115,14 +108,26 @@ const Projects = () => {
             tech='Next JS'
 
           />
+        </div>
+
+        {/* Learning projects */}
+        <h3 className='pt-16 pb-2 text-xl sm:text-2xl'>Learning Projects</h3>
+        <p className='pb-6 text-gray-600'>
+          Clones I built early on to sharpen my skills with real-world UIs, APIs, and authentication flows.
+        </p>
+        <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
-            tech='Next JS'
-
+            tech='Next JS — Learning Project'
           />
-          
+          <ProjectItem
+            title='Youtube Clone'
+            backgroundImg={youtubeImg}
+            projectUrl='/youtube'
+            tech='React JS — Learning Project'
+          />
         </div>
       </div>
     </div>

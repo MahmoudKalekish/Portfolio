@@ -70,8 +70,8 @@ const TreatYouBetter = () => {
           <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
           <Image
             className='absolute z-1'
-            layout='fill'
-            objectFit='cover'
+            fill
+            style={{ objectFit: 'cover' }}
             src='/assets/projects/TYB.png'
             alt='Treat You Batter Coffee Shop Management System Dashboard'
             priority
@@ -250,11 +250,20 @@ const TreatYouBetter = () => {
           </div>
         </div>
         
-        <div className='flex justify-center pb-12'>
+        <div className='flex justify-center pb-12 pt-8'>
           <Link href='/#projects'>
-            <p className='underline cursor-pointer text-blue-600 hover:text-blue-800 transition-colors duration-300'>
+            <button className='group relative inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300'>
+              <svg
+                className='w-5 h-5 transform group-hover:-translate-x-1 transition-transform duration-300'
+                fill='none'
+                stroke='currentColor'
+                viewBox='0 0 24 24'
+              >
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M10 19l-7-7m0 0l7-7m-7 7h18' />
+              </svg>
               Back to Projects
-            </p>
+              <span className='absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300'></span>
+            </button>
           </Link>
         </div>
       </div>

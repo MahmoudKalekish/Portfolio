@@ -21,8 +21,12 @@ const Footer = () => {
         </div>
       </div>
       <p className='mb-4 md:mb-0 text-center md:text-left'>
-        <a href="https://www.instagram.com/mahmoud_kalekish/?igshid=ZGUzMzM3NWJiOQ%3D%3D" target='_blank'>
-          © 2023 @mahmoud_kalekish
+        <a
+          href="https://www.instagram.com/mahmoud_kalekish/?igshid=ZGUzMzM3NWJiOQ%3D%3D"
+          target='_blank'
+          rel='noreferrer'
+        >
+          © {new Date().getFullYear()} Mahmoud Kalekish
         </a>
       </p>
       <div className='flex gap-4 md:gap-10 justify-center md:justify-start'>

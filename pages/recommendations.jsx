@@ -229,8 +229,8 @@ const Recommendations = () => {
           <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10 hidden md:block' />
           <div className='hidden md:block absolute top-0 left-0 w-full h-[50vh] z-1'>
             <Image
-              layout='fill'
-              objectFit='cover'
+              fill
+              style={{ objectFit: 'cover' }}
               objectPosition='center'
               src='/assets/MahmoudKalekish-banner.png'
               alt='Professional Recommendations Background'

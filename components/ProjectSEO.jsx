@@ -7,7 +7,8 @@ const ProjectSEO = ({
   demoUrl,
   githubUrl,
   imageUrl,
-  projectUrl
+  projectUrl,
+  noindex = true
 }) => {
   const title = `${projectName} - Mahmoud Kalekish Portfolio`;
   const canonical = `https://mahmoud-kalekish.vercel.app${projectUrl}`;
@@ -60,6 +61,7 @@ const ProjectSEO = ({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
       <meta name="keywords" content={`${projectName}, ${technologies.join(', ')}, Mahmoud Kalekish, Portfolio Project`} />
       
       {/* Canonical URL */}

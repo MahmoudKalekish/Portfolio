@@ -18,7 +18,7 @@ export default function Home() {
       "https://github.com/MahmoudKalekish",
       "https://merixlb.com"
     ],
-    "jobTitle": "Co-founder & Full-Stack Software Engineer",
+    "jobTitle": "Full-Stack Software Engineer, Co-founder of Merix & PhD Researcher in Generative AI",
     "worksFor": {
       "@type": "Organization",
       "name": "Merix",
@@ -30,6 +30,8 @@ export default function Home() {
     },
     "knowsAbout": [
       "Full-Stack Development",
+      "Generative AI",
+      "Digital Twins",
       "Angular",
       "Spring Boot",
       "React",
@@ -51,12 +53,12 @@ export default function Home() {
 
   return (
     <>
-      <SEO 
-        title="Mahmoud Kalekish | Full-Stack Software Engineer | Web & Mobile Developer"
-        description="I'm Mahmoud Kalekish, Co-founder of Merix and a Full-Stack Software Engineer specializing in building scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps tools like Docker and Kubernetes."
+      <SEO
+        title="Mahmoud Kalekish | Full-Stack Software Engineer & PhD Researcher in Generative AI"
+        description="I'm Mahmoud Kalekish, Co-founder of Merix, Full-Stack Software Engineer with 4+ years of experience, and PhD Researcher in Generative AI and Digital Twins. I build scalable web and mobile applications using Angular, Spring Boot, React, Flutter, and modern DevOps tools like Docker and Kubernetes."
         canonical="https://mahmoud-kalekish.vercel.app"
         structuredData={structuredData}
-        keywords="Mahmoud Kalekish, Full Stack Developer, Software Engineer, Angular Developer, Spring Boot, React Developer, Flutter Developer, Next.js, DevOps Engineer, Docker, Kubernetes, Web Developer, Mobile App Developer, Merix Co-founder"
+        keywords="Mahmoud Kalekish, Full Stack Developer, Software Engineer, Generative AI Researcher, Digital Twins, Angular Developer, Spring Boot, React Developer, Flutter Developer, Next.js, DevOps Engineer, Docker, Kubernetes, Web Developer, Mobile App Developer, Merix Co-founder"
       />
       
       <main role="main">

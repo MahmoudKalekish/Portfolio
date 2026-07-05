@@ -2,25 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Performance optimization: Preload critical fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 html {
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
+}
+
+/* Fixed navbar is 80px tall — keep anchor targets (#about, #skills, ...) below it */
+[id] {
+  scroll-margin-top: 6rem;
 }
 
 body {
   overflow-x: hidden;
 }
 
-
 @layer base {
   body {
-    /* @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide */
-    /* @apply bg-[#c8dae8] text-[#1f2937] tracking-wide */
     background-color: #fff;
+    @apply text-[#1f2937];
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -34,36 +34,101 @@ body {
   h2 {
     @apply text-3xl sm:text-4xl
   }
-  
+
   li {
-    @apply cursor-pointer 
+    @apply cursor-pointer
   }
 
   button {
-    /* @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white */
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  }
+
+  ::selection {
+    background-color: #5651e5;
+    color: #fff;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #5651e5;
+    outline-offset: 2px;
   }
 }
 
-.btm_brdr{
+/* Navbar hover underline */
+.btm_brdr {
   width: 0;
   height: 2px;
   position: absolute;
   bottom: -2px;
-  background-color: blue;
+  background-color: #5651e5;
   transition: .3s all ease;
 }
 
-.li_wrp:hover .btm_brdr{
+.li_wrp:hover .btm_brdr {
   width: 100%;
 }
 
-.li_wrp:hover{
-  color: blue;
+.li_wrp:hover {
+  color: #5651e5;
 }
 
-@media all and (max-width:500px){
-  .name{
+/* Reveal-on-scroll (class added by JS so content stays visible without JS) */
+.reveal-init {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .7s ease-out, transform .7s ease-out;
+}
+
+.reveal-init.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero entrance animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp .8s ease-out both;
+}
+
+/* Never hide content when printing or when scrolling can't happen */
+@media print {
+  .reveal-init {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-init {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .animate-fade-up {
+    animation: none;
+  }
+}
+
+@media all and (max-width:500px) {
+  .name {
     font-size: 1.2rem;
   }
 }
